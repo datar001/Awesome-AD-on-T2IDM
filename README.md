@@ -8,25 +8,25 @@ For more detailed information, please refer to our survey papers: $\url{coming s
 
 ## :grinning:Paper List
 
-- [Adversarial Attacks](#Adversarial Attacks)
-  - [Untargeted Attacks](#Untargeted Attacks)
+- [Adversarial Attacks](#Adversarial-Attacks)
+  - [Untargeted Attacks](#Untargeted-Attacks)
     - [White-Box](#White-Box)
     - [Black-Box](#Black-Box)
-  - [Targeted Attacks](#Targeted Attacks)
-    - [Attack for External Safeguards](#Attack for External Safeguards)
-    - [Attack for Internal Safeguards](#Attack for Internal Safeguards)
-    - [Attack for Black-Box Safeguards](#Attack for Black-Box Safeguards)
-- [Defenses for Improving Safety](#Defenses for Improving Safety)
-  - [External Safeguards](#External Safeguards)
-    - [Prompt Classifier](#Prompt Classifier)
-    - [Prompt Transformation](#Prompt Transformation)
-  - [Internal Safeguards](#Internal Safeguards)
-    - [Model Editing](#Model Editing)
-    - [Inference Guidance](#Inference Guidance)
+  - [Targeted Attacks](#Targeted-Attacks)
+    - [Attack for External Safeguards](#Attack-for-External-Safeguards)
+    - [Attack for Internal Safeguards](#Attack-for-Internal-Safeguards)
+    - [Attack for Black-Box Safeguards](#Attack-for-Black-Box-Safeguards)
+- [Defenses for Improving Safety](#Defenses-for-Improving-Safety)
+  - [External Safeguards](#External-Safeguards)
+    - [Prompt Classifier](#Prompt-Classifier)
+    - [Prompt Transformation](#Prompt-Transformation)
+  - [Internal Safeguards](#Internal-Safeguards)
+    - [Model Editing](#Model-Editing)
+    - [Inference Guidance](#Inference-Guidance)
 
-### :imp:<a name="Adversarial Attacks">Adversarial Attacks</a>
+### :imp:<a name="Adversarial-Attacks">Adversarial Attacks</a>
 
-#### :collision:<a name="Untargeted Attacks">Untargeted Attacks</a>
+#### :collision:<a name="Untargeted-Attacks">Untargeted Attacks</a>
 
 ##### :pouting_cat:<a name="White-Box">White-Box</a>
 
@@ -56,9 +56,9 @@ arxiv 2023. [[PDF](https://arxiv.org/pdf/2306.13103)]
 
 
 
-#### :anger:<a name="Targeted Attacks">Targeted Attacks</a>
+#### :anger:<a name="Targeted-Attacks">Targeted Attacks</a>
 
-##### :cyclone:<a name="Attack for External Safeguards">Attack for External Safeguards</a>
+##### :cyclone:<a name="Attack-for-External-Safeguards">Attack for External Safeguards</a>
 
 **Red-Teaming the Stable Diffusion Safety Filter**
 
@@ -116,7 +116,7 @@ CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA
 
 
 
-##### :snake:<a name="Attack for Internal Safeguards">Attack for Internal Safeguards</a>
+##### :snake:<a name="Attack-for-Internal-Safeguards">Attack for Internal Safeguards</a>
 
 **Ring-A-Bell! How Reliable are Concept Removal Methods for Diffusion Models?**
 
@@ -158,7 +158,7 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2404.02928)]
 
 
 
-##### :frog:<a name="Attack for Black-Box Safeguards">Attack for Black-Box Safeguards</a>
+##### :frog:<a name="Attack-for-Black-Box-Safeguards">Attack for Black-Box Safeguards</a>
 
 **Exploiting cultural biases via homoglyphs in text-to-image synthesis**
 
@@ -224,11 +224,11 @@ ICLR 2024. [[PDF](https://arxiv.org/pdf/2310.10012)]
 
 
 
-### :pill:<a name="Defenses for Improving Safety">Defenses for Improving Safety</a>
+### :pill:<a name="Defenses-for-Improving-Safety">Defenses for Improving Safety</a>
 
-#### :surfer:<a name="External Safeguards">External Safeguards</a>
+#### :surfer:<a name="External-Safeguards">External Safeguards</a>
 
-##### :mountain_bicyclist:<a name="Prompt Classifier">Prompt Classifier</a>
+##### :mountain_bicyclist:<a name="Prompt-Classifier">Prompt Classifier</a>
 
 **Latent Guard: a Safety Framework for Text-to-image Generation**
 
@@ -238,7 +238,7 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2404.08031)]
 
 
 
-##### :horse_racing:<a name="Prompt Transformation">Prompt Transformation</a>
+##### :horse_racing:<a name="Prompt-Transformation">Prompt Transformation</a>
 
 **Universal Prompt Optimizer for Safe Text-to-Image Generation**
 
@@ -256,9 +256,9 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2403.01446)]
 
 
 
-#### :hamburger:<a name="Internal Safeguards">Internal Safeguards</a>
+#### :hamburger:<a name="Internal-Safeguards">Internal Safeguards</a>
 
-##### :fries:<a name="Model Editing">Model Editing</a>
+##### :fries:<a name="Model-Editing">Model Editing</a>
 
 **Erasing concepts from diffusion models**
 
@@ -364,7 +364,7 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2405.15234)]
 
 
 
-##### :apple:<a name="Inference Guidance">Inference Guidance</a>
+##### :apple:<a name="Inference-Guidance">Inference Guidance</a>
 
 **Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models**
 
