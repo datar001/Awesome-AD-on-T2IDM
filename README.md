@@ -1,8 +1,26 @@
-# Adversarial Attacks and Defenses on Text-to-Image Diffusion Models: A Survey
+# Awesome-Attacks and Defenses on T2I Diffusion Models
 
-We are focusing on the attack and defense methods on the robustness and safety of the text-to-image diffusion models.
+This repository is a curated collection of research papers focused on $\textbf{adversarial attacks and defenses on the text-to-image diffusion models (AD-on-T2IDM)}$
 
-For more detailed information, please refer to our survey papers: $\url{coming soon}$
+We will keep this collection up-to-date to track the latest advancements in the field of AD-on-T2IDM
+
+Welcome to follow and star! If you have any relevant materials or suggestions, please feel free to contact us (zcy@tju.edu.cn) or submit a pull request.
+
+For more detailed information, please refer to our survey papers: [coming soon]()
+
+
+
+## Citation
+
+```latex
+Coming soon
+```
+
+
+
+## Overview of AD-on-T2IDM
+
+
 
 
 
