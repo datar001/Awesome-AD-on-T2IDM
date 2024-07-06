@@ -36,11 +36,11 @@ Based on the intent of the adversary, existing attack methods can be divided int
 
 - For untargeted attacks, consider a scenario with a prompt input by the user~($\textbf{clean prompt}$) and its corresponding output image~($\textbf{clean image}$). The objective of untargeted attacks is to subtly perturb the clean prompt to craft an $\textbf{adversarial prompt}$, further misleading the victim model to generate an $\textbf{adversarial image}$ with semantics different from the clean image. This type of attack is commonly used to uncover the vulnerability in **the robustness** of the victim model. Some untargeted attacks are shown as follows:
 
-  ![untargeted attacks](./picture/untargeted attacks.png)
+  ![untargeted attacks](./picture/untargeted_attacks.png)
 
 - For targeted attacks, assumes that the victim model has built-in $\textbf{safeguards}$ to filter $\textbf{malicious prompts}$ and resultant $\textbf{malicious images}$. These prompts and images often explicitly contain $\textbf{malicious concepts}$, such as 'nudity', 'violence', and other predefined concepts. The objective of targeted attacks is to obtain an $\textbf{adversarial prompt}$, which can bypass these safeguards while inducing the victim model to generate $\textbf{adversarial images}$ containing malicious concepts. This type of attack is typically designed to reveal the vulnerability in the **safety** of the victim model. Some targeted attacks are shown as follows:
 
-  ![targeted attacks](./picture/targeted attacks.png)
+  ![targeted attacks](./picture/targeted_attacks.png)
 
 ### Defenses
 
