@@ -18,11 +18,37 @@ Coming soon
 
 
 
+## Abstract
+
+Recently, the text-to-image diffusion model has gained considerable attention from the community due to its exceptional image generation capability. A representative model, Stable Diffusion, amassed more than 10 million users within just two months of its release. This surge in popularity has facilitated studies on the **robustness** and **safety** of the model, leading to the proposal of various adversarial attack methods.  Simultaneously, there has been a marked increase in research focused on defense methods to improve the robustness and safety of these models. In this survey, we provide a comprehensive review of the literature on adversarial attacks and defenses targeting text-to-image diffusion models. We begin with an overview of popular text-to-image diffusion models, followed by an introduction to a taxonomy of adversarial attacks and an in-depth review of existing attack methods. We then present a detailed analysis of current defense methods that improve model robustness and safety. Finally, we discuss ongoing challenges and explore promising future research directions.
+
 ## Overview of AD-on-T2IDM
 
+### Two important concerns
 
+The **robustness** ensures that the model can generate images with consistent semantics in response to diverse prompts inputted by users in practice.
+The **safety** prevents the misuse of the model in creating malicious images, such as sexual, violent, and political images, etc.
 
+### Adversarial attacks
 
+Based on the intent of the adversary, existing attack methods can be divided into two primary categories: untargeted and targeted attacks. 
+
+- For untargeted attacks, consider a scenario with a prompt input by the user~($\textbf{clean prompt}$) and its corresponding output image~($\textbf{clean image}$). The objective of untargeted attacks is to subtly perturb the clean prompt to craft an $\textbf{adversarial prompt}$, further misleading the victim model to generate an $\textbf{adversarial image}$ with semantics different from the clean image. This type of attack is commonly used to uncover the vulnerability in **the robustness** of the victim model. Some untargeted attacks are shown as follows:
+
+  ![untargeted attacks](.\picture\untargeted attacks.png)
+
+- For targeted attacks, assumes that the victim model has built-in $\textbf{safeguards}$ to filter $\textbf{malicious prompts}$ and resultant $\textbf{malicious images}$. These prompts and images often explicitly contain $\textbf{malicious concepts}$, such as 'nudity', 'violence', and other predefined concepts. The objective of targeted attacks is to obtain an $\textbf{adversarial prompt}$, which can bypass these safeguards while inducing the victim model to generate $\textbf{adversarial images}$ containing malicious concepts. This type of attack is typically designed to reveal the vulnerability in the **safety** of the victim model. Some targeted attacks are shown as follows:
+
+  ![targeted attacks](.\picture\targeted attacks.png)
+
+### Defenses
+
+Based on the defense goal, existing defense methods can be classified into two categories: 1) **improving model robustness** and 2) **improving model safety**. 
+
+- The goal of robustness is to ensure that generated images have consistent semantics with diverse input prompts in practical applications. Specifically, according to the adversarial attack, the defense methods are asked to mitigate the robustness vulnerabilities in  two types of input prompts: 1) the prompt with multiple objects and attributes, and 2) the grammatically incorrect prompt with the subtle noise.
+- The safety goal is to prevent the generation of malicious images in response to both malicious and adversarial prompts. Specifically, malicious prompts explicitly contain malicious concepts, while adversarial prompts cleverly omit these concepts. Moreover, based on the knowledge of the model, existing safety methods can be classified into two categories: external safeguards and internal safeguards.
+
+Notably, although many methods are proposed to improve the model robustness against the prompt with multiple objects and attributes, this collection omits related papers on this part since there has been related surveys, such as controllable image generation [[PDF]](https://arxiv.org/pdf/2403.04279), the development and advancement of image generation capabilities [[PDF-1]](https://arxiv.org/pdf/2209.02646), [[PDF-2]](https://arxiv.org/pdf/2209.00796), [[PDF-3]](https://arxiv.org/pdf/2401.11631). Moreover, for ungrammatically incorrect prompts with subtle noise, mature solutions are still lacking. Therefore, this collection mainly focuses on the defense methods for improving model safety.
 
 ## :grinning:Paper List
 
