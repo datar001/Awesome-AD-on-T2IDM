@@ -24,7 +24,7 @@ Recently, the text-to-image diffusion model has gained considerable attention fr
 
 ## Overview of AD-on-T2IDM
 
-### Two important concerns
+### Two key concerns in T2IDM: Robustness and Safety
 
 The **robustness** ensures that the model can generate images with consistent semantics in response to diverse prompts inputted by users in practice.
 
