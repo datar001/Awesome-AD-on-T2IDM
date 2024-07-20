@@ -49,7 +49,12 @@ Based on the intent of the adversary, existing attack methods can be divided int
 Based on the defense goal, existing defense methods can be classified into two categories: 1) **improving model robustness** and 2) **improving model safety**. 
 
 - The goal of robustness is to ensure that generated images have consistent semantics with diverse input prompts in practical applications. Specifically, according to the adversarial attack, the defense methods are asked to mitigate the robustness vulnerabilities in  two types of input prompts: 1) **the prompt with multiple objects and attributes**, and 2) **the grammatically incorrect prompt with the subtle noise**.
-- The safety goal is to prevent the generation of malicious images in response to **both malicious and adversarial prompts**. Specifically, malicious prompts explicitly contain malicious concepts, while adversarial prompts cleverly omit these concepts. Moreover, based on the knowledge of the model, existing safety methods can be classified into two categories: **external safeguards** and **internal safeguards**. The external safeguards focus on detecting or correcting the malicious prompt before feeding the prompt into the text-to-image model. In contrast, internal safeguards aim to ensure that the semantics of output images deviate from those of malicious images by modifying internal parameters and features within the model.
+
+- The safety goal is to prevent the generation of malicious images in response to **both malicious and adversarial prompts**. Specifically, malicious prompts explicitly contain malicious concepts, while adversarial prompts cleverly omit these concepts. Moreover, based on the knowledge of the model, existing safety methods can be classified into two categories: **external safeguards** and **internal safeguards**. The external safeguards focus on detecting or correcting the malicious prompt before feeding the prompt into the text-to-image model.  In contrast, internal safeguards aim to ensure that the semantics of output images deviate from those of malicious images by modifying internal parameters and features within the model.  Some examples of external and internal safeguards are shown as follows:
+
+  <img src="./picture/external_safeguards.png" alt="external safeguards" style="zoom:50%;" />
+
+  <img src="./picture/internal_safeguards.png" alt="internal safeguards" style="zoom:50%;" />
 
 Notably, although many methods are proposed to improve the model robustness against the prompt with multiple objects and attributes, this collection omits related papers on this part since there has been related surveys, such as controllable image generation [[PDF]](https://arxiv.org/pdf/2403.04279), the development and advancement of image generation capabilities [[PDF-1]](https://arxiv.org/pdf/2209.02646), [[PDF-2]](https://arxiv.org/pdf/2209.00796), [[PDF-3]](https://arxiv.org/pdf/2401.11631). Moreover, for ungrammatically incorrect prompts with subtle noise, mature solutions are still lacking. Therefore, this collection mainly focuses on the defense methods for improving model safety.
 
@@ -244,6 +249,14 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2312.07130)]
 Yi Liu, Guowei Yang, Gelei Deng, Feiyue Chen, Yuqi Chen, Ling Shi, Tianwei Zhang, Yang Liu
 
 arxiv 2024. [[PDF](https://arxiv.org/pdf/2402.12100)]
+
+
+
+**BSPA: Exploring Black-box Stealthy Prompt Attacks against Image Generators**
+
+Yu Tian, Xiao Yang, Yinpeng Dong, Heming Yang, Hang Su, Jun Zhu
+
+arxiv 2024. [[PDF](https://arxiv.org/pdf/2402.15218)]
 
 
 
