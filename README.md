@@ -6,7 +6,7 @@ We will continuously update this collection to track the latest advancements in 
 
 Welcome to follow and star! If you have any relevant materials or suggestions, please feel free to contact us (zcy@tju.edu.cn) or submit a pull request.
 
-For more detailed information, please refer to our survey papers: [coming soon]().
+For more detailed information, please refer to our survey papers: [PDF]([2407.15861 (arxiv.org)](https://arxiv.org/pdf/2407.15861)).
 
 
 
@@ -86,7 +86,7 @@ Notably, although many methods are proposed to improve the model robustness agai
 
 *Chengbin Du, Yanxi Li, Zhongwei Qiu, Chang Xu*
 
-NeurIPS 2024. [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b733cdd80ed2ae7e3156d8c33108c5d5-Paper-Conference.pdf)
+NeurIPS 2024. [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b733cdd80ed2ae7e3156d8c33108c5d5-Paper-Conference.pdf)  [[CODE](https://github.com/duchengbin8/Stable_Diffusion_is_Unstable)]
 
 
 
@@ -94,7 +94,7 @@ NeurIPS 2024. [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2023/file
 
 *Haomin Zhuang, Yihua Zhang*
 
-CVPRW 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023W/AML/papers/Zhuang_A_Pilot_Study_of_Query-Free_Adversarial_Attack_Against_Stable_Diffusion_CVPRW_2023_paper.pdf)]
+CVPRW 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023W/AML/papers/Zhuang_A_Pilot_Study_of_Query-Free_Adversarial_Attack_Against_Stable_Diffusion_CVPRW_2023_paper.pdf)] [[CODE](https://github.com/OPTML-Group/QF-Attack)]
 
 
 
@@ -120,35 +120,11 @@ arxiv 2022. [[PDF](https://arxiv.org/pdf/2210.04610)]
 
 
 
-**Black Box Adversarial Prompting for Foundation Models**
-
-*Natalie Maus, Patrick Chao, Eric Wong, Jacob Gardner*
-
-arxiv 2023. [[PDF](https://arxiv.org/pdf/2302.04237)]
-
-
-
 **SneakyPrompt: Evaluating Robustness of Text-to-image Generative Models' Safety Filters**
 
 *Yuchen Yang, Bo Hui, Haolin Yuan, Neil Gong, Yinzhi Cao*
 
-Proceedings of the IEEE Symposium on Security and Privacy 2024. [[PDF](https://arxiv.org/pdf/2305.12082)]
-
-
-
-**Asymmetric Bias in Text-to-Image Generation with Adversarial Attacks**
-
-*Haz Sameen Shahgir, Xianghao Kong, Greg Ver Steeg, Yue Dong*
-
-arxiv 2023. [[PDF](https://arxiv.org/pdf/2312.14440)]
-
-
-
-**Revealing vulnerabilities in stable diffusion via targeted attacks**
-
-*Chenyu Zhang, Lanjun Wang, Anan Liu*
-
-arxiv 2024. [[PDF](https://arxiv.org/abs/2401.08725)]
+Proceedings of the IEEE Symposium on Security and Privacy 2024. [[PDF](https://arxiv.org/pdf/2305.12082)] [[CODE](https://github.com/Yuchen413/text2image_safety)]
 
 
 
@@ -156,7 +132,7 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2401.08725)]
 
 *Han Liu, Yuhao Wu, Shixuan Zhai, Bo Yuan, Ning Zhang*
 
-CVPR 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_RIATIG_Reliable_and_Imperceptible_Adversarial_Text-to-Image_Generation_With_Natural_Prompts_CVPR_2023_paper.pdf)]
+CVPR 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_RIATIG_Reliable_and_Imperceptible_Adversarial_Text-to-Image_Generation_With_Natural_Prompts_CVPR_2023_paper.pdf)] [[CODE](https://github.com/WUSTL-CSPL/RIATIG)]
 
 
 
@@ -164,7 +140,31 @@ CVPR 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_RIAT
 
 *Yang, Yijun and Gao, Ruiyuan and Wang, Xiaosen and Ho, Tsung-Yi and Xu, Nan and Xu, Qiang*
 
-CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA-Diffusion_MultiModal_Attack_on_Diffusion_Models_CVPR_2024_paper.pdf)]
+CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA-Diffusion_MultiModal_Attack_on_Diffusion_Models_CVPR_2024_paper.pdf)] [[CODE](https://github.com/cure-lab/MMA-Diffusion)]
+
+
+
+**Black Box Adversarial Prompting for Foundation Models**
+
+*Natalie Maus, Patrick Chao, Eric Wong, Jacob Gardner*
+
+arxiv 2023. [[PDF](https://arxiv.org/pdf/2302.04237)] [[CODE](https://github.com/ibrahimyaghi/Black-Box-Adversarial-Prompting-for-Foundation-Models)]
+
+
+
+**Asymmetric Bias in Text-to-Image Generation with Adversarial Attacks**
+
+*Haz Sameen Shahgir, Xianghao Kong, Greg Ver Steeg, Yue Dong*
+
+arxiv 2023. [[PDF](https://arxiv.org/pdf/2312.14440)] [[CODE](https://github.com/Patchwork53/AsymmetricAttack)]
+
+
+
+**Revealing vulnerabilities in stable diffusion via targeted attacks**
+
+*Chenyu Zhang, Lanjun Wang, Anan Liu*
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2401.08725)] [[CODE](https://github.com/datar001/Revealing-Vulnerabilities-in-Stable-Diffusion-via-Targeted-Attacks)]
 
 
 
@@ -182,7 +182,7 @@ ICLR 2024. [[PDF](https://arxiv.org/pdf/2310.10012)]
 
 *Zhang, Yimeng and Jia, Jinghan and Chen, Xin and Chen, Aochuan and Zhang, Yihua and Liu, Jiancheng and Ding, Ke and Liu, Sijia*
 
-arxiv 2023. [[PDF](https://arxiv.org/pdf/2310.11868)]
+ECCV 2024. [[PDF](https://arxiv.org/pdf/2310.11868)] [[CODE](https://github.com/OPTML-Group/Diffusion-MU-Attack)]
 
 
 
@@ -190,7 +190,7 @@ arxiv 2023. [[PDF](https://arxiv.org/pdf/2310.11868)]
 
 *Chin, Zhi-Yi and Jiang, Chieh-Ming and Huang, Ching-Chun and Chen, Pin-Yu and Chiu, Wei-Chen*
 
-ICML 2024. [[PDF](https://arxiv.org/pdf/2309.06135)]
+ICML 2024. [[PDF](https://arxiv.org/pdf/2309.06135)] [[CODE](https://github.com/joycenerd/P4D)]
 
 
 
@@ -212,11 +212,35 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2404.02928)]
 
 ##### :frog:<a name="Attack-for-Black-Box-Safeguards">Attack for Black-Box Safeguards</a>
 
+**SneakyPrompt: Evaluating Robustness of Text-to-image Generative Models' Safety Filters**
+
+*Yuchen Yang, Bo Hui, Haolin Yuan, Neil Gong, Yinzhi Cao*
+
+Proceedings of the IEEE Symposium on Security and Privacy 2024. [[PDF](https://arxiv.org/pdf/2305.12082)]  [[CODE](https://github.com/Yuchen413/text2image_safety)]
+
+
+
+**Mma-diffusion: Multimodal attack on diffusion models**
+
+*Yang, Yijun and Gao, Ruiyuan and Wang, Xiaosen and Ho, Tsung-Yi and Xu, Nan and Xu, Qiang*
+
+CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA-Diffusion_MultiModal_Attack_on_Diffusion_Models_CVPR_2024_paper.pdf)]  [[CODE](https://github.com/cure-lab/MMA-Diffusion)]
+
+
+
+**Ring-A-Bell! How Reliable are Concept Removal Methods for Diffusion Models?**
+
+*Tsai, Yu-Lin and Hsu, Chia-Yi and Xie, Chulin and Lin, Chih-Hsun and Chen, Jia-You and Li, Bo and Chen, Pin-Yu and Yu, Chia-Mu and Huang, Chun-Ying*
+
+ICLR 2024. [[PDF](https://arxiv.org/pdf/2310.10012)]
+
+
+
 **Exploiting cultural biases via homoglyphs in text-to-image synthesis**
 
 *Struppek, Lukas and Hintersdorf, Dom and Friedrich, Felix and Schramowski, Patrick and Kersting, Kristian*
 
-Journal of Artificial Intelligence Research 2023. [[PDF](https://www.jair.org/index.php/jair/article/view/15388)]
+Journal of Artificial Intelligence Research 2023. [[PDF](https://www.jair.org/index.php/jair/article/view/15388)] [[CODE](https://github.com/LukasStruppek/Exploiting-Cultural-Biases-via-Homoglyphs)]
 
 
 
@@ -232,7 +256,7 @@ arxiv 2022. [[PDF](https://arxiv.org/pdf/2208.04135)]
 
 *Zhongjie Ba, Jieming Zhong, Jiachen Lei, Peng Cheng, Qinglong Wang, Zhan Qin, Zhibo Wang, Kui Ren*
 
-arxiv 2023. [[PDF](https://arxiv.org/pdf/2309.14122)]
+arxiv 2023. [[PDF](https://arxiv.org/pdf/2309.14122)] 
 
 
 
@@ -260,30 +284,6 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2402.15218)]
 
 
 
-**SneakyPrompt: Evaluating Robustness of Text-to-image Generative Models' Safety Filters**
-
-*Yuchen Yang, Bo Hui, Haolin Yuan, Neil Gong, Yinzhi Cao*
-
-Proceedings of the IEEE Symposium on Security and Privacy 2024. [[PDF](https://arxiv.org/pdf/2305.12082)]
-
-
-
-**Mma-diffusion: Multimodal attack on diffusion models**
-
-*Yang, Yijun and Gao, Ruiyuan and Wang, Xiaosen and Ho, Tsung-Yi and Xu, Nan and Xu, Qiang*
-
-CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA-Diffusion_MultiModal_Attack_on_Diffusion_Models_CVPR_2024_paper.pdf)]
-
-
-
-**Ring-A-Bell! How Reliable are Concept Removal Methods for Diffusion Models?**
-
-*Tsai, Yu-Lin and Hsu, Chia-Yi and Xie, Chulin and Lin, Chih-Hsun and Chen, Jia-You and Li, Bo and Chen, Pin-Yu and Yu, Chia-Mu and Huang, Chun-Ying*
-
-ICLR 2024. [[PDF](https://arxiv.org/pdf/2310.10012)]
-
-
-
 ### :pill:<a name="Defenses-for-Improving-Safety">Defenses for Improving Safety</a>
 
 #### :surfer:<a name="External-Safeguards">External Safeguards</a>
@@ -294,7 +294,7 @@ ICLR 2024. [[PDF](https://arxiv.org/pdf/2310.10012)]
 
 *Runtao Liu, Ashkan Khakzar, Jindong Gu, Qifeng Chen, Philip Torr, Fabio Pizzati*
 
-arxiv 2024. [[PDF](https://arxiv.org/pdf/2404.08031)]
+ECCV 2024. [[PDF](https://arxiv.org/pdf/2404.08031)] [[CODE](https://github.com/rt219/LatentGuard)]
 
 
 
@@ -324,7 +324,7 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2403.01446)]
 
 *Gandikota, Rohit and Materzynska, Joanna and Fiotto-Kaufman, Jaden and Bau, David*
 
-ICCV 2023. [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Gandikota_Erasing_Concepts_from_Diffusion_Models_ICCV_2023_paper.pdf)]
+ICCV 2023. [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Gandikota_Erasing_Concepts_from_Diffusion_Models_ICCV_2023_paper.pdf)] [[CODE](https://github.com/rohitgandikota/erasing)]
 
 
 
@@ -332,7 +332,7 @@ ICCV 2023. [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Gandikot
 
 *Kumari, Nupur and Zhang, Bingliang and Wang, Sheng-Yu and Shechtman, Eli and Zhang, Richard and Zhu, Jun-Yan*
 
-ICCV 2023. [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kumari_Ablating_Concepts_in_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)]
+ICCV 2023. [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kumari_Ablating_Concepts_in_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)] [[CODE](https://github.com/nupurkmr9/concept-ablation)]
 
 
 
@@ -340,7 +340,7 @@ ICCV 2023. [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Kumari_A
 
 *Gandikota, Rohit and Orgad, Hadas and Belinkov, Yonatan and Materzy{\'n}ska, Joanna and Bau, David*
 
-WACV 2024. [[PDF](https://openaccess.thecvf.com/content/WACV2024/papers/Gandikota_Unified_Concept_Editing_in_Diffusion_Models_WACV_2024_paper.pdf)]
+WACV 2024. [[PDF](https://openaccess.thecvf.com/content/WACV2024/papers/Gandikota_Unified_Concept_Editing_in_Diffusion_Models_WACV_2024_paper.pdf)] [[CODE](https://github.com/rohitgandikota/unified-concept-editing)]
 
 
 
@@ -348,7 +348,7 @@ WACV 2024. [[PDF](https://openaccess.thecvf.com/content/WACV2024/papers/Gandikot
 
 *Orgad, Hadas and Kawar, Bahjat and Belinkov, Yonatan*
 
-ICCV 2023. [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Orgad_Editing_Implicit_Assumptions_in_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)]
+ICCV 2023. [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Orgad_Editing_Implicit_Assumptions_in_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf)] [[CODE](https://github.com/bahjat-kawar/time-diffusion)]
 
 
 
@@ -356,7 +356,7 @@ ICCV 2023. [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Orgad_Ed
 
 *Sanghyun Kim, Seohyeon Jung, Balhae Kim, Moonseok Choi, Jinwoo Shin, Juho Lee*
 
-ICML 2023 Workshop on Challenges in Deployable Generative AI. [[PDF](https://arxiv.org/pdf/2307.05977)]
+ICML 2023 Workshop on Challenges in Deployable Generative AI. [[PDF](https://arxiv.org/pdf/2307.05977)] [CODE](https://github.com/nannullna/safe-diffusion)]
 
 
 
@@ -368,11 +368,27 @@ NAACL 2024. [[PDF](https://arxiv.org/pdf/2306.00738)]
 
 
 
-**Safe-CLIP: Removing NSFW Concepts from Vision-and-Language Models**
+**Forget-Me-Not: Learning to Forget in Text-to-Image Diffusion Models**
 
-*Poppi, Samuele and Poppi, Tobia and Cocchi, Federico and Cornia, Marcella and Baraldi, Lorenzo and Cucchiara, Rita*
+Gong Zhang, Kai Wang, Xingqian Xu, Zhangyang Wang, Humphrey Shi
 
-arxiv 2024.
+CVPR 2024 [[PDF](https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Zhang_Forget-Me-Not_Learning_to_Forget_in_Text-to-Image_Diffusion_Models_CVPRW_2024_paper.pdf)] [[CODE](https://github.com/SHI-Labs/Forget-Me-Not)]
+
+
+
+**One-dimensional Adapter to Rule Them All: Concepts, Diffusion Models and Erasing Applications**
+
+Mengyao Lyu, Yuhong Yang, Haiwen Hong, Hui Chen, Xuan Jin, Yuan He, Hui Xue, Jungong Han, Guiguang Ding
+
+CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Lyu_One-dimensional_Adapter_to_Rule_Them_All_Concepts_Diffusion_Models_and_CVPR_2024_paper.pdf)] [[CODE)](https://lyumengyao.github.io/projects/spm)]
+
+
+
+**Selective Amnesia: A Continual Learning Approach to Forgetting in Deep Generative Models**
+
+Alvin Heng , Harold Soh
+
+NeurIPS 2024, [[PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/376276a95781fa17c177b1ccdd0a03ac-Paper-Conference.pdf)]  [[CODE](https://github.com/clear-nus/selective-amnesia)]
 
 
 
@@ -389,6 +405,14 @@ ACM MM 2023. [[PDF](https://arxiv.org/pdf/2308.02552)]
 *Hong, Seunghoo and Lee, Juhun and Woo, Simon S*
 
 AAAI 2024. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/30107)]
+
+
+
+**Safe-CLIP: Removing NSFW Concepts from Vision-and-Language Models**
+
+*Poppi, Samuele and Poppi, Tobia and Cocchi, Federico and Cornia, Marcella and Baraldi, Lorenzo and Cucchiara, Rita*
+
+arxiv 2024.
 
 
 
@@ -420,7 +444,15 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2311.17717)]
 
 *Yimeng Zhang, Xin Chen, Jinghan Jia, Yihua Zhang, Chongyu Fan, Jiancheng Liu, Mingyi Hong, Ke Ding, Sijia Liu*
 
-arxiv 2024. [[PDF](https://arxiv.org/pdf/2405.15234)]
+arxiv 2024. [[PDF](https://arxiv.org/pdf/2405.15234)] [[CODE](https://github.com/OPTML-Group/AdvUnlearn)]
+
+
+
+**Editing Massive Concepts in Text-to-Image Diffusion Models**
+
+Tianwei Xiong, Yue Wu, Enze Xie, Yue Wu, Zhenguo Li, Xihui Liu
+
+arxiv 2024. [[PDF](https://arxiv.org/pdf/2403.13807)] [[CODE](https://github.com/SilentView/EMCID)]
 
 
 
@@ -430,7 +462,15 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2405.15234)]
 
 *Patrick Schramowski, Manuel Brack, Björn Deiseroth, Kristian Kersting*
 
-CVPR 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Schramowski_Safe_Latent_Diffusion_Mitigating_Inappropriate_Degeneration_in_Diffusion_Models_CVPR_2023_paper.pdf)]
+CVPR 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Schramowski_Safe_Latent_Diffusion_Mitigating_Inappropriate_Degeneration_in_Diffusion_Models_CVPR_2023_paper.pdf)] [[CODE](https://huggingface.co/AIML-TUDA/stable-diffusion-safe)]
+
+
+
+**Sega: Instructing text-to-image models using semantic guidance**
+
+Manuel Brack, Felix Friedrich, Dominik Hintersdorf, Lukas Struppek, Patrick Schramowski, Kristian Kersting
+
+NeurIPS 2023. [[PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/4ff83037e8d97b2171b2d3e96cb8e677-Paper-Conference.pdf)] [[CODE](https://github.com/v0xie/sd-webui-semantic-guidance)]
 
 
 
@@ -438,4 +478,4 @@ CVPR 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Schramow
 
 *Li, Hang and Shen, Chengzhi and Torr, Philip and Tresp, Volker and Gu, Jindong*
 
-CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Self-Discovering_Interpretable_Diffusion_Latent_Directions_for_Responsible_Text-to-Image_Generation_CVPR_2024_paper.pdf)]
+CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Self-Discovering_Interpretable_Diffusion_Latent_Directions_for_Responsible_Text-to-Image_Generation_CVPR_2024_paper.pdf)] [[CODE](https://github.com/hangligit/InterpretDiffusion)]
