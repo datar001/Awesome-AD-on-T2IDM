@@ -62,8 +62,8 @@ Notably, although many methods are proposed to improve the model robustness agai
 
 - [Adversarial Attacks](#Adversarial-Attacks)
   - [Untargeted Attacks](#Untargeted-Attacks)
-    - [White-Box Attacks](#White-Box Attacks)
-    - [Black-Box Attacks](#Black-Box Attacks)
+    - [White-Box Attacks](#White-Box-Attacks)
+    - [Black-Box Attacks](#Black-Box-Attacks)
   - [Targeted Attacks](#Targeted-Attacks)
     - [Attacking External Safeguards](#Attacking-External-Safeguards)
     - [Attacking Internal Safeguards](#Attacking-Internal-Safeguards)
@@ -80,7 +80,7 @@ Notably, although many methods are proposed to improve the model robustness agai
 
 #### :collision:<a name="Untargeted-Attacks">Untargeted Attacks</a>
 
-##### :pouting_cat:<a name="White-Box Attacks">White-Box Attacks</a>
+##### :pouting_cat:<a name="White-Box-Attacks">White-Box Attacks</a>
 
 **Stable diffusion is unstable** 
 
@@ -98,7 +98,7 @@ CVPRW 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023W/AML/papers/Zh
 
 
 
-##### :see_no_evil:<a name="Black-Box Attacks">Black-Box Attacks</a>
+##### :see_no_evil:<a name="Black-Box-Attacks">Black-Box Attacks</a>
 
 **Evaluating the Robustness of Text-to-image Diffusion Models against Real-world Attacks**
 
