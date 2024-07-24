@@ -62,12 +62,12 @@ Notably, although many methods are proposed to improve the model robustness agai
 
 - [Adversarial Attacks](#Adversarial-Attacks)
   - [Untargeted Attacks](#Untargeted-Attacks)
-    - [White-Box](#White-Box)
-    - [Black-Box](#Black-Box)
+    - [White-Box Attacks](#White-Box Attacks)
+    - [Black-Box Attacks](#Black-Box Attacks)
   - [Targeted Attacks](#Targeted-Attacks)
-    - [Attack for External Safeguards](#Attack-for-External-Safeguards)
-    - [Attack for Internal Safeguards](#Attack-for-Internal-Safeguards)
-    - [Attack for Black-Box Safeguards](#Attack-for-Black-Box-Safeguards)
+    - [Attacking External Safeguards](#Attacking-External-Safeguards)
+    - [Attacking Internal Safeguards](#Attacking-Internal-Safeguards)
+    - [Attacking Black-Box Safeguards](#Attacking-Black-Box-Safeguards)
 - [Defenses for Improving Safety](#Defenses-for-Improving-Safety)
   - [External Safeguards](#External-Safeguards)
     - [Prompt Classifier](#Prompt-Classifier)
@@ -80,7 +80,7 @@ Notably, although many methods are proposed to improve the model robustness agai
 
 #### :collision:<a name="Untargeted-Attacks">Untargeted Attacks</a>
 
-##### :pouting_cat:<a name="White-Box">White-Box</a>
+##### :pouting_cat:<a name="White-Box Attacks">White-Box Attacks</a>
 
 **Stable diffusion is unstable** 
 
@@ -98,7 +98,7 @@ CVPRW 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023W/AML/papers/Zh
 
 
 
-##### :see_no_evil:<a name="Black-Box">Black-Box</a>
+##### :see_no_evil:<a name="Black-Box Attacks">Black-Box Attacks</a>
 
 **Evaluating the Robustness of Text-to-image Diffusion Models against Real-world Attacks**
 
@@ -110,7 +110,7 @@ arxiv 2023. [[PDF](https://arxiv.org/pdf/2306.13103)]
 
 #### :anger:<a name="Targeted-Attacks">Targeted Attacks</a>
 
-##### :cyclone:<a name="Attack-for-External-Safeguards">Attack for External Safeguards</a>
+##### :cyclone:<a name="Attacking-External-Safeguards">Attacking External Safeguards</a>
 
 **Red-Teaming the Stable Diffusion Safety Filter**
 
@@ -168,7 +168,7 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2401.08725)] [[CODE](https://github.com
 
 
 
-##### :snake:<a name="Attack-for-Internal-Safeguards">Attack for Internal Safeguards</a>
+##### :snake:<a name="Attacking-Internal-Safeguards">Attacking Internal Safeguards</a>
 
 **Ring-A-Bell! How Reliable are Concept Removal Methods for Diffusion Models?**
 
@@ -210,7 +210,7 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2404.02928)]
 
 
 
-##### :frog:<a name="Attack-for-Black-Box-Safeguards">Attack for Black-Box Safeguards</a>
+##### :frog:<a name="Attacking-Black-Box-Safeguards">Attacking Black-Box Safeguards</a>
 
 **SneakyPrompt: Evaluating Robustness of Text-to-image Generative Models' Safety Filters**
 
