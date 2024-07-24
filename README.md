@@ -6,7 +6,7 @@ We will continuously update this collection to track the latest advancements in 
 
 Welcome to follow and star! If you have any relevant materials or suggestions, please feel free to contact us (zcy@tju.edu.cn) or submit a pull request.
 
-For more detailed information, please refer to our survey papers: [PDF]([2407.15861 (arxiv.org)](https://arxiv.org/pdf/2407.15861)).
+For more detailed information, please refer to our survey papers: [[PDF](https://arxiv.org/pdf/2407.15861)]
 
 
 
