@@ -6,7 +6,7 @@ We will continuously update this collection to track the latest advancements in 
 
 Welcome to follow and star! If you have any relevant materials or suggestions, please feel free to contact us (zcy@tju.edu.cn) or submit a pull request.
 
-For more detailed information, please refer to our survey papers: [[PDF](https://arxiv.org/pdf/2407.15861)]
+For more detailed information, please refer to our survey paper: [[PDF](https://arxiv.org/pdf/2407.15861)]
 
 
 
@@ -361,7 +361,7 @@ ICCV 2023. [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Orgad_Ed
 
 *Sanghyun Kim, Seohyeon Jung, Balhae Kim, Moonseok Choi, Jinwoo Shin, Juho Lee*
 
-ICML 2023 Workshop on Challenges in Deployable Generative AI. [[PDF](https://arxiv.org/pdf/2307.05977)] [CODE](https://github.com/nannullna/safe-diffusion)]
+ICML 2023 Workshop on Challenges in Deployable Generative AI. [[PDF](https://arxiv.org/pdf/2307.05977)] [[CODE](https://github.com/nannullna/safe-diffusion)]
 
 
 
@@ -385,7 +385,7 @@ CVPR 2024 [[PDF](https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Zha
 
 Mengyao Lyu, Yuhong Yang, Haiwen Hong, Hui Chen, Xuan Jin, Yuan He, Hui Xue, Jungong Han, Guiguang Ding
 
-CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Lyu_One-dimensional_Adapter_to_Rule_Them_All_Concepts_Diffusion_Models_and_CVPR_2024_paper.pdf)] [[CODE)](https://lyumengyao.github.io/projects/spm)]
+CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Lyu_One-dimensional_Adapter_to_Rule_Them_All_Concepts_Diffusion_Models_and_CVPR_2024_paper.pdf)] [[CODE](https://lyumengyao.github.io/projects/spm)]
 
 
 
