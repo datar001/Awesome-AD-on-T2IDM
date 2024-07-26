@@ -13,7 +13,12 @@ For more detailed information, please refer to our survey papers: [[PDF](https:/
 ## Citation
 
 ```latex
-Coming soon
+@article{zhang2024adversarial,
+  title={Adversarial Attacks and Defenses on Text-to-Image Diffusion Models: A Survey},
+  author={Zhang, Chenyu and Hu, Mingwang and Li, Wenhui and Wang, Lanjun},
+  journal={arXiv preprint arXiv:2407.15861},
+  year={2024}
+}
 ```
 
 
