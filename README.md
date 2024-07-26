@@ -61,7 +61,7 @@ Based on the defense goal, existing defense methods can be classified into two c
 
   <img src="./picture/internal_safeguards.png" alt="internal safeguards" style="zoom:50%;" />
 
-Notably, although many methods are proposed to improve the model robustness against the prompt with multiple objects and attributes, this collection omits related papers on this part since there has been related surveys, such as controllable image generation [[PDF]](https://arxiv.org/pdf/2403.04279), the development and advancement of image generation capabilities [[PDF-1]](https://arxiv.org/pdf/2209.02646), [[PDF-2]](https://arxiv.org/pdf/2209.00796), [[PDF-3]](https://arxiv.org/pdf/2401.11631). Moreover, for ungrammatically incorrect prompts with subtle noise, mature solutions are still lacking. Therefore, this collection mainly focuses on the defense methods for improving model safety.
+Notably, although many methods are proposed to improve the model robustness against the prompt with multiple objects and attributes, this collection omits related papers on this part since there has been related surveys, such as controllable image generation [[PDF]](https://arxiv.org/pdf/2403.04279), the development and advancement of image generation capabilities [[PDF-1]](https://arxiv.org/pdf/2209.02646), [[PDF-2]](https://arxiv.org/pdf/2209.00796), [[PDF-3]](https://arxiv.org/pdf/2401.11631). Moreover, for grammatically incorrect prompts with subtle noise, mature solutions are still lacking. Therefore, this collection mainly focuses on the defense methods for improving model safety.
 
 ## :grinning:Paper List
 
