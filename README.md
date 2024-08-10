@@ -325,6 +325,13 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2403.01446)]
 
 ##### :fries:<a name="Model-Editing">Model Editing</a>
 
+**SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models**
+
+Xinfeng Li, Yuchen Yang, Jiangyi Deng, Chen Yan, Yanjiao Chen, Wenyuan Xu
+
+ACM CCS 2024 [[PDF](https://arxiv.org/pdf/2404.06666)] [[CODE](https://github.com/LetterLiGo/SafeGen_CCS2024)]
+
+
 **Erasing concepts from diffusion models**
 
 *Gandikota, Rohit and Materzynska, Joanna and Fiotto-Kaufman, Jaden and Bau, David*
