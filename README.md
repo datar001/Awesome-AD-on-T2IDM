@@ -365,6 +365,14 @@ ICML 2023 Workshop on Challenges in Deployable Generative AI. [[PDF](https://arx
 
 
 
+**Degeneration-tuning: Using scrambled grid shield unwanted concepts from stable diffusion**
+
+*Ni, Zixuan and Wei, Longhui and Li, Jiacheng and Tang, Siliang and Zhuang, Yueting and Tian, Qi*
+
+ACM MM 2023. [[PDF](https://arxiv.org/pdf/2308.02552)]
+
+
+
 **ReFACT: Updating Text-to-Image Models by Editing the Text Encoder**
 
 *Dana Arad, Hadas Orgad, Yonatan Belinkov*
@@ -397,19 +405,19 @@ NeurIPS 2024, [[PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/
 
 
 
-**Degeneration-tuning: Using scrambled grid shield unwanted concepts from stable diffusion**
-
-*Ni, Zixuan and Wei, Longhui and Li, Jiacheng and Tang, Siliang and Zhuang, Yueting and Tian, Qi*
-
-ACM MM 2023. [[PDF](https://arxiv.org/pdf/2308.02552)]
-
-
-
 **All but One: Surgical Concept Erasing with Model Preservation in Text-to-Image Diffusion Models**
 
 *Hong, Seunghoo and Lee, Juhun and Woo, Simon S*
 
 AAAI 2024. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/30107)]
+
+
+
+**SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models**
+
+Xinfeng Li , Yuchen Yang , Jiangyi Deng, Chen Yan , Yanjiao Chen , Xiaoyu Ji , Wenyuan Xu
+
+ACM CCS 2024. [[PDF](https://arxiv.org/pdf/2404.06666)] [[CODE](https://github.com/LetterLiGo/SafeGen_CCS2024)]
 
 
 
