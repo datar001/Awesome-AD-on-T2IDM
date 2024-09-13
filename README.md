@@ -6,7 +6,13 @@ We will continuously update this collection to track the latest advancements in 
 
 Welcome to follow and star! If you have any relevant materials or suggestions, please feel free to contact us (zcy@tju.edu.cn) or submit a pull request.
 
-For more detailed information, please refer to our survey paper: [[PDF](https://arxiv.org/pdf/2407.15861)]
+For more detailed information, please refer to our survey paper: [[PDF]](https://arxiv.org/abs/2407.15861)
+
+
+
+## :bell:News
+
+- **2024-09-12 Our survey "Adversarial Attacks and Defenses on Text-to-Image Diffusion Models" has been accepted for Information Fusion~(SCI-1, IF14.7).**
 
 
 
@@ -440,11 +446,19 @@ ACM CCS 2024. [[PDF](https://arxiv.org/pdf/2404.06666)] [[CODE](https://github.c
 
 
 
+**Direct Unlearning Optimization for Robust and Safe Text-to-Image Models**
+
+Yong-Hyun Park, Sangdoo Yun, Jin-Hwa Kim, Junho Kim, Geonhui Jang, Yonghyun Jeong, Junghyo Jo, Gayoung Lee
+
+ICML 2024 Workshop. [[PDF]](https://arxiv.org/abs/2407.21035) 
+
+
+
 **Safe-CLIP: Removing NSFW Concepts from Vision-and-Language Models**
 
 *Poppi, Samuele and Poppi, Tobia and Cocchi, Federico and Cornia, Marcella and Baraldi, Lorenzo and Cucchiara, Rita*
 
-arxiv 2024.
+ECCV 2024. [[PDF]](https://arxiv.org/abs/2311.16254) [[CODE]](https://github.com/aimagelab/safe-clip)
 
 
 
@@ -460,7 +474,7 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2405.15304)]
 
 *Changhoon Kim, Kyle Min, Yezhou Yang*
 
-arxiv 2024. [[PDF](https://arxiv.org/pdf/2405.16341)]
+ECCV 2024. [[PDF](https://arxiv.org/pdf/2405.16341)] [[CODE]](https://github.com/chkimmmmm/R.A.C.E.)
 
 
 
@@ -468,7 +482,7 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2405.16341)]
 
 *Chi-Pin Huang, Kai-Po Chang, Chung-Ting Tsai, Yung-Hsuan Lai, Fu-En Yang, Yu-Chiang Frank Wang*
 
-arxiv 2024. [[PDF](https://arxiv.org/pdf/2311.17717)]
+ECCV 2024. [[PDF](https://arxiv.org/pdf/2311.17717)] [[CODE]](https://github.com/jasper0314-huang/Receler)
 
 
 
@@ -534,13 +548,12 @@ Based on the prompt source, existing datasets are categorized into two types: **
 #### Malicious Datasets
 
 - $\textit{Unsafe Diffusion}$ [[Link]](https://github.com/YitingQu/unsafe-diffusion) provides 30 manually crafted malicious prompts that describe sexual and bloody content, as well as political figures. 
-
 - $\textit{SneakyPrompt}$ [[Link](https://github.com/Yuchen413/text2image_safety)] uses ChatGPT to automatically generate 200 malicious prompts that involve sexual and bloody content.
 - $\textit{I2P}$  [[Link]](https://huggingface.co/datasets/AIML-TUDA/i2p) comprises 4,703 inappropriate prompts, encompassing hate, harassment, violence, self-harm, nudity content, shocking images, and illegal activity. These inappropriate prompts are real-user inputs sourced from an image generation website, Lexica [[Link]](https://lexica.art/).
 - $\textit{MMA}$ [[Link]](https://huggingface.co/datasets/YijunYang280/MMA-Diffusion-NSFW-adv-prompts-benchmark)samples and releases 1,000 malicious prompts from LAION-COCO based on an NSFW~(Not Safe for Work) score. These malicious prompts mainly focus on sexual content.
-
 - $\textit{Image Synthesis Style Studies Database}$ [[Link]](https://proximacentaurib.notion.site/parrot-zone-74a5c04d4feb4f12b52a41fc8750b205) compiles thousands of artists whose styles can be replicated by various text-to-image models, such as Stable Diffusion and Midjourney.
-- $\textit{MACE}$ [[Link]](https://github.com/Shilin-LU/MACE/tree/main/prompts_csv)provides a dataset comprising 200 celebrities whose portraits, generated using SD v1.4, are recognized with remarkable accuracy (>99\%) by the GIPHY Celebrity Detector (GCD) [[Link]](https://github.com/Giphy/celeb-detection-oss).
+- $\textit{MACE}$ [[Link]](https://github.com/Shilin-LU/MACE/tree/main/prompts_csv) provides a dataset comprising 200 celebrities whose portraits, generated using SD v1.4, are recognized with remarkable accuracy (>99\%) by the GIPHY Celebrity Detector (GCD) [[Link]](https://github.com/Giphy/celeb-detection-oss).
+- $\textit{Safe-CLIP}$ [[Link]](https://github.com/aimagelab/safe-clip) contains 175k pairs of safe and unsafe data examples. Each example consists of: (1) a safe sentence, (2) a corresponding safe image, (3) an NSFW sentence that is semantically correlated with the safe sentence, and (4) a corresponding NSFW image.
 
 #### Adversarial Datasets
 
