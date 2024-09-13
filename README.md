@@ -553,7 +553,7 @@ Based on the prompt source, existing datasets are categorized into two types: **
 - $\textit{MMA}$ [[Link]](https://huggingface.co/datasets/YijunYang280/MMA-Diffusion-NSFW-adv-prompts-benchmark)samples and releases 1,000 malicious prompts from LAION-COCO based on an NSFW~(Not Safe for Work) score. These malicious prompts mainly focus on sexual content.
 - $\textit{Image Synthesis Style Studies Database}$ [[Link]](https://proximacentaurib.notion.site/parrot-zone-74a5c04d4feb4f12b52a41fc8750b205) compiles thousands of artists whose styles can be replicated by various text-to-image models, such as Stable Diffusion and Midjourney.
 - $\textit{MACE}$ [[Link]](https://github.com/Shilin-LU/MACE/tree/main/prompts_csv) provides a dataset comprising 200 celebrities whose portraits, generated using SD v1.4, are recognized with remarkable accuracy (>99\%) by the GIPHY Celebrity Detector (GCD) [[Link]](https://github.com/Giphy/celeb-detection-oss).
-- $\textit{Safe-CLIP}$ [[Link]](https://github.com/aimagelab/safe-clip) contains 175k pairs of safe and unsafe data examples. Each example consists of: (1) a safe sentence, (2) a corresponding safe image, (3) an NSFW sentence that is semantically correlated with the safe sentence, and (4) a corresponding NSFW image.
+- $\textit{ViSU}$ [[Link]](https://github.com/aimagelab/safe-clip) contains 175k pairs of safe and unsafe data examples. Each example consists of: (1) a safe sentence, (2) a corresponding safe image, (3) an NSFW sentence that is semantically correlated with the safe sentence, and (4) a corresponding NSFW image.
 
 #### Adversarial Datasets
 
