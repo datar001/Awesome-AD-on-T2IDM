@@ -566,7 +566,7 @@ Based on the prompt source, existing datasets are categorized into two types: **
 
 ### <a name="Tools">Tools</a>
 
-We provides several detectors for detecting malicious prompts and images.
+We provide several detectors for detecting malicious prompts and images.
 
 #### Malicious Prompt Detector
 
