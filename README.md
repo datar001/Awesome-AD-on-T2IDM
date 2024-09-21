@@ -6,13 +6,13 @@ We will continuously update this collection to track the latest advancements in 
 
 Welcome to follow and star! If you have any relevant materials or suggestions, please feel free to contact us (zcy@tju.edu.cn) or submit a pull request.
 
-For more detailed information, please refer to our survey paper: [[PDF]](https://arxiv.org/abs/2407.15861)
+For more detailed information, please refer to our survey paper: [[ARXIV]](https://arxiv.org/abs/2407.15861)， [[Published Version]](https://www.sciencedirect.com/science/article/abs/pii/S1566253524004792)
 
 
 
 ## :bell:News
 
-- **2024-09-12 Our survey "Adversarial Attacks and Defenses on Text-to-Image Diffusion Models" has been accepted for Information Fusion~(SCI-1, IF14.7).**
+- **2024-09-12 Our survey "Adversarial Attacks and Defenses on Text-to-Image Diffusion Models" has been accepted by Information Fusion~(SCI-1, IF14.7).**
 
 
 
@@ -20,10 +20,12 @@ For more detailed information, please refer to our survey paper: [[PDF]](https:/
 
 ```latex
 @article{zhang2024adversarial,
-  title={Adversarial Attacks and Defenses on Text-to-Image Diffusion Models: A Survey},
+  title={Adversarial attacks and defenses on text-to-image diffusion models: A survey},
   author={Zhang, Chenyu and Hu, Mingwang and Li, Wenhui and Wang, Lanjun},
-  journal={arXiv preprint arXiv:2407.15861},
-  year={2024}
+  journal={Information Fusion},
+  pages={102701},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
