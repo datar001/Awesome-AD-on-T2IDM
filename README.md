@@ -86,12 +86,11 @@ Notably, although many methods are proposed to improve the model robustness agai
 
 - [Adversarial Attacks](#Adversarial-Attacks)
   - [Untargeted Attacks](#Untargeted-Attacks)
-    - [White-Box Attacks](#White-Box-Attacks)
-    - [Black-Box Attacks](#Black-Box-Attacks)
+    - [White-Box Attacks](#Untargeted-White-Box-Attacks)
+    - [Black-Box Attacks](#Untargeted-Black-Box-Attacks)
   - [Targeted Attacks](#Targeted-Attacks)
-    - [Attacking External Safeguards](#Attacking-External-Safeguards)
-    - [Attacking Internal Safeguards](#Attacking-Internal-Safeguards)
-    - [Attacking Black-Box Safeguards](#Attacking-Black-Box-Safeguards)
+    - [White-Box Attacks](#Targeted-White-Box-Attacks)
+    - [Black-Box Attacks](#Targeted-Black-Box-Attacks)
 - [Defenses for Improving Safety](#Defenses-for-Improving-Safety)
   - [External Safeguards](#External-Safeguards)
     - [Prompt Classifier](#Prompt-Classifier)
@@ -104,7 +103,7 @@ Notably, although many methods are proposed to improve the model robustness agai
 
 #### :collision:<a name="Untargeted-Attacks">Untargeted Attacks</a>
 
-##### :pouting_cat:<a name="White-Box-Attacks">White-Box Attacks</a>
+##### :pouting_cat:<a name="Untargeted-White-Box-Attacks">White-Box Attacks</a>
 
 **Stable diffusion is unstable** 
 
@@ -122,7 +121,7 @@ CVPRW 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023W/AML/papers/Zh
 
 
 
-##### :see_no_evil:<a name="Black-Box-Attacks">Black-Box Attacks</a>
+##### :see_no_evil:<a name="Untargeted-Black-Box-Attacks">Black-Box Attacks</a>
 
 **Evaluating the Robustness of Text-to-image Diffusion Models against Real-world Attacks**
 
@@ -134,21 +133,13 @@ arxiv 2023. [[PDF](https://arxiv.org/pdf/2306.13103)]
 
 #### :anger:<a name="Targeted-Attacks">Targeted Attacks</a>
 
-##### :cyclone:<a name="Attacking-External-Safeguards">Attacking External Safeguards</a>
+##### :cyclone:<a name="Targeted-White-Box-Attacks">White-Box Attacks</a>
 
 **Red-Teaming the Stable Diffusion Safety Filter**
 
 *Javier Rando, Daniel Paleka, David Lindner, Lennart Heim, Florian Tramèr*
 
-arxiv 2022. [[PDF](https://arxiv.org/pdf/2210.04610)]
-
-
-
-**SneakyPrompt: Evaluating Robustness of Text-to-image Generative Models' Safety Filters**
-
-*Yuchen Yang, Bo Hui, Haolin Yuan, Neil Gong, Yinzhi Cao*
-
-Proceedings of the IEEE Symposium on Security and Privacy 2024. [[PDF](https://arxiv.org/pdf/2305.12082)] [[CODE](https://github.com/Yuchen413/text2image_safety)]
+NeurIPS 2022, WorkShop. [[PDF](https://arxiv.org/pdf/2210.04610)]
 
 
 
@@ -157,6 +148,14 @@ Proceedings of the IEEE Symposium on Security and Privacy 2024. [[PDF](https://a
 *Yiting Qu, Xinyue Shen, Xinlei He, Michael Backes, Savvas Zannettou, Yang Zhang*
 
 Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security. [[PDF]](https://arxiv.org/pdf/2305.13873) [[CODE]](https://github.com/YitingQu/unsafe-diffusion)
+
+
+
+**Ring-A-Bell! How Reliable are Concept Removal Methods for Diffusion Models?**
+
+*Tsai, Yu-Lin and Hsu, Chia-Yi and Xie, Chulin and Lin, Chih-Hsun and Chen, Jia-You and Li, Bo and Chen, Pin-Yu and Yu, Chia-Mu and Huang, Chun-Ying*
+
+ICLR 2024. [[PDF](https://arxiv.org/pdf/2310.10012)]
 
 
 
@@ -176,14 +175,6 @@ CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA
 
 
 
-**Black Box Adversarial Prompting for Foundation Models**
-
-*Natalie Maus, Patrick Chao, Eric Wong, Jacob Gardner*
-
-arxiv 2023. [[PDF](https://arxiv.org/pdf/2302.04237)] [[CODE](https://github.com/ibrahimyaghi/Black-Box-Adversarial-Prompting-for-Foundation-Models)]
-
-
-
 **Asymmetric Bias in Text-to-Image Generation with Adversarial Attacks**
 
 *Haz Sameen Shahgir, Xianghao Kong, Greg Ver Steeg, Yue Dong*
@@ -197,16 +188,6 @@ arxiv 2023. [[PDF](https://arxiv.org/pdf/2312.14440)] [[CODE](https://github.com
 *Chenyu Zhang, Lanjun Wang, Anan Liu*
 
 arxiv 2024. [[PDF](https://arxiv.org/abs/2401.08725)] [[CODE](https://github.com/datar001/Revealing-Vulnerabilities-in-Stable-Diffusion-via-Targeted-Attacks)]
-
-
-
-##### :snake:<a name="Attacking-Internal-Safeguards">Attacking Internal Safeguards</a>
-
-**Ring-A-Bell! How Reliable are Concept Removal Methods for Diffusion Models?**
-
-*Tsai, Yu-Lin and Hsu, Chia-Yi and Xie, Chulin and Lin, Chih-Hsun and Chen, Jia-You and Li, Bo and Chen, Pin-Yu and Yu, Chia-Mu and Huang, Chun-Ying*
-
-ICLR 2024. [[PDF](https://arxiv.org/pdf/2310.10012)]
 
 
 
@@ -226,11 +207,11 @@ ICML 2024. [[PDF](https://arxiv.org/pdf/2309.06135)] [[CODE](https://github.com/
 
 
 
-**FLIRT: Feedback Loop In-context Red Teaming**
+**ADVI2I: ADVERSARIAL IMAGE ATTACK ON IMAGE-TO-IMAGE DIFFUSION MODELS**
 
-*Ninareh Mehrabi, Palash Goyal, Christophe Dupuy, Qian Hu, Shalini Ghosh, Richard Zemel, Kai-Wei Chang, Aram Galstyan, Rahul Gupta*
+Yaopei Zeng, Yuanpu Cao, Bochuan Cao, Yurui Chang, Jinghui Chen, Lu Lin
 
-arxiv 2023. [[PDF](https://arxiv.org/pdf/2308.04265)]
+arxiv 2024. [[PDF](https://arxiv.org/abs/2410.21471)] [[CODE](https://github.com/Spinozaaa/AdvI2I)]
 
 
 
@@ -242,29 +223,53 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2404.02928)]
 
 
 
-##### :frog:<a name="Attacking-Black-Box-Safeguards">Attacking Black-Box Safeguards</a>
+**Adversarial Attacks on Parts of Speech: An Empirical Study in Text-to-Image Generation**
+
+G M Shahariar, Jia Chen, Jiachen Li, Yue Dong
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2409.15381)]
+
+
+
+##### :snake:<a name="Targeted-Black-Box-Attacks">Black-Box Attacks</a>
 
 **SneakyPrompt: Evaluating Robustness of Text-to-image Generative Models' Safety Filters**
 
 *Yuchen Yang, Bo Hui, Haolin Yuan, Neil Gong, Yinzhi Cao*
 
-Proceedings of the IEEE Symposium on Security and Privacy 2024. [[PDF](https://arxiv.org/pdf/2305.12082)]  [[CODE](https://github.com/Yuchen413/text2image_safety)]
+Proceedings of the IEEE Symposium on Security and Privacy 2024. [[PDF](https://arxiv.org/pdf/2305.12082)] [[CODE](https://github.com/Yuchen413/text2image_safety)]
 
 
 
-**Mma-diffusion: Multimodal attack on diffusion models**
+**ART: Automatic Red-teaming for Text-to-Image Models to Protect Benign Users**
 
-*Yang, Yijun and Gao, Ruiyuan and Wang, Xiaosen and Ho, Tsung-Yi and Xu, Nan and Xu, Qiang*
+Guanlin Li, Kangjie Chen, Shudong Zhang, Jie Zhang, Tianwei Zhang
 
-CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_MMA-Diffusion_MultiModal_Attack_on_Diffusion_Models_CVPR_2024_paper.pdf)]  [[CODE](https://github.com/cure-lab/MMA-Diffusion)]
+NeurIPS 2024. [[PDF](https://arxiv.org/abs/2405.19360)] [[CODE](https://github.com/GuanlinLee/ART)]
 
 
 
-**Ring-A-Bell! How Reliable are Concept Removal Methods for Diffusion Models?**
+**FLIRT: Feedback Loop In-context Red Teaming**
 
-*Tsai, Yu-Lin and Hsu, Chia-Yi and Xie, Chulin and Lin, Chih-Hsun and Chen, Jia-You and Li, Bo and Chen, Pin-Yu and Yu, Chia-Mu and Huang, Chun-Ying*
+*Ninareh Mehrabi, Palash Goyal, Christophe Dupuy, Qian Hu, Shalini Ghosh, Richard Zemel, Kai-Wei Chang, Aram Galstyan, Rahul Gupta*
 
-ICLR 2024. [[PDF](https://arxiv.org/pdf/2310.10012)]
+EMNLP 2024. [[PDF](https://arxiv.org/pdf/2308.04265)]
+
+
+
+**Jailbreaking Text-to-Image Models with LLM-Based Agents**
+
+Yingkai Dong, Zheng Li, Xiangtao Meng, Ning Yu, Shanqing Guo
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2408.00523)]
+
+
+
+**Automatic Jailbreaking of the Text-to-Image Generative AI Systems**
+
+Minseon Kim, Hyomin Lee, Boqing Gong, Huishuai Zhang, Sung Ju Hwang
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2405.16567)] [[CODE](https://github.com/Kim-Minseon/APGP)]
 
 
 
@@ -273,22 +278,6 @@ ICLR 2024. [[PDF](https://arxiv.org/pdf/2310.10012)]
 *Struppek, Lukas and Hintersdorf, Dom and Friedrich, Felix and Schramowski, Patrick and Kersting, Kristian*
 
 Journal of Artificial Intelligence Research 2023. [[PDF](https://www.jair.org/index.php/jair/article/view/15388)] [[CODE](https://github.com/LukasStruppek/Exploiting-Cultural-Biases-via-Homoglyphs)]
-
-
-
-**Adversarial Attacks on Image Generation With Made-Up Words**
-
-*Raphaël Millière*
-
-arxiv 2022. [[PDF](https://arxiv.org/pdf/2208.04135)]
-
-
-
-**SurrogatePrompt: Bypassing the Safety Filter of Text-To-Image Models via Substitution**
-
-*Zhongjie Ba, Jieming Zhong, Jiachen Lei, Peng Cheng, Qinglong Wang, Zhan Qin, Zhibo Wang, Kui Ren*
-
-arxiv 2023. [[PDF](https://arxiv.org/pdf/2309.14122)] 
 
 
 
@@ -313,6 +302,54 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2402.12100)]
 Yu Tian, Xiao Yang, Yinpeng Dong, Heming Yang, Hang Su, Jun Zhu
 
 arxiv 2024. [[PDF](https://arxiv.org/pdf/2402.15218)]
+
+
+
+**Black Box Adversarial Prompting for Foundation Models**
+
+*Natalie Maus, Patrick Chao, Eric Wong, Jacob Gardner*
+
+arxiv 2023. [[PDF](https://arxiv.org/pdf/2302.04237)] [[CODE](https://github.com/ibrahimyaghi/Black-Box-Adversarial-Prompting-for-Foundation-Models)]
+
+
+
+**Adversarial Attacks on Image Generation With Made-Up Words**
+
+*Raphaël Millière*
+
+arxiv 2022. [[PDF](https://arxiv.org/pdf/2208.04135)]
+
+
+
+**SurrogatePrompt: Bypassing the Safety Filter of Text-To-Image Models via Substitution**
+
+*Zhongjie Ba, Jieming Zhong, Jiachen Lei, Peng Cheng, Qinglong Wang, Zhan Qin, Zhibo Wang, Kui Ren*
+
+arxiv 2023. [[PDF](https://arxiv.org/pdf/2309.14122)] 
+
+
+
+**RT-Attack: Jailbreaking Text-to-Image Models via Random Token**
+
+Sensen Gao, Xiaojun Jia, Yihao Huang, Ranjie Duan, Jindong Gu, Yang Liu, Qing Guo
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2408.13896)]
+
+
+
+**Perception-guided Jailbreak against Text-to-Image Models**
+
+Yihao Huang, Le Liang, Tianlin Li, Xiaojun Jia, Run Wang, Weikai Miao, Geguang Pu, and Yang Liu
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2408.10848)]
+
+
+
+**DiffZOO: A Purely Query-Based Black-Box Attack for red-teaming Text-to-Image Generative Model via Zeroth Order Optimization**
+
+Pucheng Dang, Xing Hu, Dong Li, Rui Zhang, Kaidi Xu, Qi Guo
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2408.11071)]
 
 
 
@@ -344,7 +381,7 @@ NAACL 2024. [[PDF](https://arxiv.org/pdf/2402.10882)]
 
 *Yijun Yang, Ruiyuan Gao, Xiao Yang, Jianyuan Zhong, Qiang Xu*
 
-arxiv 2024. [[PDF](https://arxiv.org/pdf/2403.01446)]
+NeurIPS 2024. [[PDF](https://arxiv.org/pdf/2403.01446)]
 
 
 
@@ -492,7 +529,7 @@ ECCV 2024. [[PDF](https://arxiv.org/pdf/2311.17717)] [[CODE]](https://github.com
 
 *Yimeng Zhang, Xin Chen, Jinghan Jia, Yihua Zhang, Chongyu Fan, Jiancheng Liu, Mingyi Hong, Ke Ding, Sijia Liu*
 
-arxiv 2024. [[PDF](https://arxiv.org/pdf/2405.15234)] [[CODE](https://github.com/OPTML-Group/AdvUnlearn)]
+NeurIPS 2024. [[PDF](https://arxiv.org/pdf/2405.15234)] [[CODE](https://github.com/OPTML-Group/AdvUnlearn)]
 
 
 
@@ -552,7 +589,8 @@ Based on the prompt source, existing datasets are categorized into two types: **
 - $\textit{Unsafe Diffusion}$ [[Link]](https://github.com/YitingQu/unsafe-diffusion) provides 30 manually crafted malicious prompts that describe sexual and bloody content, as well as political figures. 
 - $\textit{SneakyPrompt}$ [[Link](https://github.com/Yuchen413/text2image_safety)] uses ChatGPT to automatically generate 200 malicious prompts that involve sexual and bloody content.
 - $\textit{I2P}$  [[Link]](https://huggingface.co/datasets/AIML-TUDA/i2p) comprises 4,703 inappropriate prompts, encompassing hate, harassment, violence, self-harm, nudity content, shocking images, and illegal activity. These inappropriate prompts are real-user inputs sourced from an image generation website, Lexica [[Link]](https://lexica.art/).
-- $\textit{MMA}$ [[Link]](https://huggingface.co/datasets/YijunYang280/MMA-Diffusion-NSFW-adv-prompts-benchmark)samples and releases 1,000 malicious prompts from LAION-COCO based on an NSFW~(Not Safe for Work) score. These malicious prompts mainly focus on sexual content.
+- $\textit{MMA}$ [[Link]](https://huggingface.co/datasets/YijunYang280/MMA-Diffusion-NSFW-adv-prompts-benchmark) samples and releases 1,000 malicious prompts from LAION-COCO based on an NSFW~(Not Safe for Work) score. These malicious prompts mainly focus on sexual content.
+- $ART$[[Link](https://huggingface.co/datasets/glli/ART/tree/main)] follows I2P and collects 15,607 malicious prompts from 7 categories in Lexica [[Link]](https://lexica.art/).
 - $\textit{Image Synthesis Style Studies Database}$ [[Link]](https://proximacentaurib.notion.site/parrot-zone-74a5c04d4feb4f12b52a41fc8750b205) compiles thousands of artists whose styles can be replicated by various text-to-image models, such as Stable Diffusion and Midjourney.
 - $\textit{MACE}$ [[Link]](https://github.com/Shilin-LU/MACE/tree/main/prompts_csv) provides a dataset comprising 200 celebrities whose portraits, generated using SD v1.4, are recognized with remarkable accuracy (>99\%) by the GIPHY Celebrity Detector (GCD) [[Link]](https://github.com/Giphy/celeb-detection-oss).
 - $\textit{ViSU}$ [[Link]](https://github.com/aimagelab/safe-clip) contains 175k pairs of safe and unsafe data examples. Each example consists of: (1) a safe sentence, (2) a corresponding safe image, (3) an NSFW sentence that is semantically correlated with the safe sentence, and (4) a corresponding NSFW image.
@@ -574,6 +612,10 @@ We provide several detectors for detecting malicious prompts and images.
 - distilbert-nsfw-text-classifier: [[Link]](https://huggingface.co/eliasalbouzidi/distilbert-nsfw-text-classifier)
 
 - Detoxify: [[Link]](https://github.com/unitaryai/detoxify)
+
+- Toxic-comment-model: [[Link](https://huggingface.co/martin-ha/toxic-comment-model)]
+
+- Meta-Llama-Guard: [[Link](https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B)] (LLM evaluation)
 
 - Openai-Moderation: [[Link]](https://platform.openai.com/docs/guides/moderation/overview) (API)
 - Azure-Moderation: [[Link]](https://learn.microsoft.com/zh-cn/azure/ai-services/content-moderator/api-reference) (API)
