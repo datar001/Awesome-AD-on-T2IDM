@@ -540,6 +540,11 @@ Tianwei Xiong, Yue Wu, Enze Xie, Yue Wu, Zhenguo Li, Xihui Liu
 arxiv 2024. [[PDF](https://arxiv.org/pdf/2403.13807)] [[CODE](https://github.com/SilentView/EMCID)]
 
 
+**Safe Text-to-Image Generation: Simply Sanitize the Prompt Embedding**
+
+Huming Qiu, Guanxu Chen, Mi Zhang, Min Yang
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2411.10329)] [[CODE](https://anonymous.4open.science/r/Embedding-Sanitizer-166E/README.md)]
 
 ##### :apple:<a name="Inference-Guidance">Inference Guidance</a>
 
