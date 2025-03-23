@@ -408,6 +408,12 @@ NAACL 2024. [[PDF](https://arxiv.org/pdf/2402.10882)]
 NeurIPS 2024. [[PDF](https://arxiv.org/pdf/2403.01446)]
 
 
+**SAFREE: Training-Free and Adaptive Guard for Safe Text-to-Image And Video Generation**
+
+*Jaehong Yoon, Shoubin Yu, Vaidehi Patil, Huaxiu Yao, Mohit Bansal*
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2410.12761)]
+
 
 #### :hamburger:<a name="Internal-Safeguards">Internal Safeguards</a>
 
