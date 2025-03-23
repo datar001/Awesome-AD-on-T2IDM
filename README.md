@@ -249,6 +249,22 @@ NeurIPS 2024. [[PDF](https://arxiv.org/abs/2405.19360)] [[CODE](https://github.c
 
 
 
+**Coljailbreak: Collaborative generation and editing for jailbreaking text-to-image deep generation**
+
+*Yizhuo Ma, Shanmin Pang, Qi Guo, Tianyu Wei, Qing Guo*
+
+NeurIPS 2024. [[PDF](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6f11132f6ecbbcafafdf6decfc98f7be-Abstract-Conference.html)]
+
+
+
+**UPAM: Unified Prompt Attack in Text-to-Image Generation Models Against Both Textual Filters and Visual Checkers**
+
+Duo Peng, Qiuhong Ke, Jun Liu
+
+ICML2024, [[PDF]](https://arxiv.org/abs/2405.11336)
+
+
+
 **FLIRT: Feedback Loop In-context Red Teaming**
 
 *Ninareh Mehrabi, Palash Goyal, Christophe Dupuy, Qian Hu, Shalini Ghosh, Richard Zemel, Kai-Wei Chang, Aram Galstyan, Rahul Gupta*
@@ -325,7 +341,7 @@ arxiv 2022. [[PDF](https://arxiv.org/pdf/2208.04135)]
 
 *Zhongjie Ba, Jieming Zhong, Jiachen Lei, Peng Cheng, Qinglong Wang, Zhan Qin, Zhibo Wang, Kui Ren*
 
-arxiv 2023. [[PDF](https://arxiv.org/pdf/2309.14122)] 
+ACM CCS 2024. [[PDF](https://arxiv.org/pdf/2309.14122)] 
 
 
 
@@ -453,6 +469,14 @@ NAACL 2024. [[PDF](https://arxiv.org/pdf/2306.00738)]
 
 
 
+**OnMechanistic Knowledge Localization in Text-to-Image Generative Models**
+
+*Samyadeep Basu, Keivan Rezaei, Priyatham Kattakinda, Vlad I Morariu, Nanxuan Zhao, Ryan A. Rossi, Varun Manjunatha, Soheil Feizi*
+
+ICML 2024. [[PDF](https://openreview.net/forum?id=fsVBsxjRER)] 
+
+
+
 **Forget-Me-Not: Learning to Forget in Text-to-Image Diffusion Models**
 
 Gong Zhang, Kai Wang, Xingqian Xu, Zhangyang Wang, Humphrey Shi
@@ -461,11 +485,11 @@ CVPR 2024 [[PDF](https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Zha
 
 
 
-**One-dimensional Adapter to Rule Them All: Concepts, Diffusion Models and Erasing Applications**
+**Get What You Want, Not What You Don't: Image Content Suppression for Text-to-Image Diffusion Models**
 
-Mengyao Lyu, Yuhong Yang, Haiwen Hong, Hui Chen, Xuan Jin, Yuan He, Hui Xue, Jungong Han, Guiguang Ding
+*Senmao Li, Joost van de Weijer, Taihang Hu, Fahad Shahbaz Khan, Qibin Hou, Yaxing Wang, Jian Yang*
 
-CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Lyu_One-dimensional_Adapter_to_Rule_Them_All_Concepts_Diffusion_Models_and_CVPR_2024_paper.pdf)] [[CODE](https://lyumengyao.github.io/projects/spm)]
+ICLR 2024. [[PDF](https://arxiv.org/abs/2402.05375)] [[CODE](https://github.com/sen-mao/SuppressEOT)]
 
 
 
@@ -474,6 +498,38 @@ CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Lyu_One-
 Alvin Heng , Harold Soh
 
 NeurIPS 2024, [[PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/376276a95781fa17c177b1ccdd0a03ac-Paper-Conference.pdf)]  [[CODE](https://github.com/clear-nus/selective-amnesia)]
+
+
+
+**Leveraging Catastrophic Forgetting to Develop Safe Diffusion Models against Malicious Finetuning**
+
+*Jiadong Pan, Hongcheng Gao, Zongyu Wu, Taihang Hu, Li Su, Qingming Huang, Liang Li*
+
+NeurIPS 2024. [[PDF](https://proceedings.neurips.cc/paper_files/paper/2024/hash/d0949cbcec31c09431610553a284f94a-Abstract-Conference.html)] [[CODE](https://github.com/matrix0721/LCFDSD)]
+
+
+
+**Boosting Alignment for Post-Unlearning Text-to-Image Generative Models**
+
+*Myeongseob Ko, Henry Li, Zhun Wang, Jonathan Patsenker, Jiachen T. Wang, Qinbin Li, Ming Jin, Dawn Song, Ruoxi Jia*
+
+NeurIPS 2024. [[PDF](https://proceedings.neurips.cc/paper_files/paper/2024/hash/9aa51796f8bede2ea947d6b6e3087ab8-Abstract-Conference.html)] [[CODE](https://github.com/reds-lab/Restricted_gradient_diversity_unlearning)]
+
+
+
+**Erasing Undesirable Concepts in Diffusion Models with Adversarial Preservation**
+
+*Anh Bui, Long Vuong, Khanh Doan, Trung Le, Paul Montague, Tamas Abraham, Dinh Phung*
+
+NeurIPS 2024. [[PDF](https://arxiv.org/abs/2410.15618)] [[CODE](https://github.com/tuananhbui89/Erasing-Adversarial-Preservation)]
+
+
+
+**Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models**
+
+*Yimeng Zhang, Xin Chen, Jinghan Jia, Yihua Zhang, Chongyu Fan, Jiancheng Liu, Mingyi Hong, Ke Ding, Sijia Liu*
+
+NeurIPS 2024. [[PDF](https://arxiv.org/pdf/2405.15234)] [[CODE](https://github.com/OPTML-Group/AdvUnlearn)]
 
 
 
@@ -501,6 +557,14 @@ ICML 2024 Workshop. [[PDF]](https://arxiv.org/abs/2407.21035)
 
 
 
+**One-dimensional adapter to rule them all: Concepts diffusion models and erasing applications**
+
+*Mengyao Lyu, Yuhong Yang, Haiwen Hong, Hui Chen, Xuan Jin, Yuan He, Hui Xue, Jungong Han, Guiguang Ding*
+
+CVPR 2024 [[PDF](https://openaccess.thecvf.com/content/CVPR2024/html/Lyu_One-dimensional_Adapter_to_Rule_Them_All_Concepts_Diffusion_Models_and_CVPR_2024_paper.html)] [[CODE](https://github.com/Con6924/SPM)]
+
+
+
 **Safe-CLIP: Removing NSFW Concepts from Vision-and-Language Models**
 
 *Poppi, Samuele and Poppi, Tobia and Cocchi, Federico and Cornia, Marcella and Baraldi, Lorenzo and Cucchiara, Rita*
@@ -513,7 +577,7 @@ ECCV 2024. [[PDF]](https://arxiv.org/abs/2311.16254) [[CODE]](https://github.com
 
 *Yongliang Wu, Shiji Zhou, Mingzhuo Yang, Lianzhe Wang, Wenbo Zhu, Heng Chang, Xiao Zhou, Xu Yang*
 
-arxiv 2024. [[PDF](https://arxiv.org/pdf/2405.15304)]
+AAAI 2025. [[PDF](https://arxiv.org/pdf/2405.15304)]
 
 
 
@@ -533,11 +597,35 @@ ECCV 2024. [[PDF](https://arxiv.org/pdf/2311.17717)] [[CODE]](https://github.com
 
 
 
-**Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models**
+**Reliable and efficient concept erasure of text-to-image diffusion models**
 
-*Yimeng Zhang, Xin Chen, Jinghan Jia, Yihua Zhang, Chongyu Fan, Jiancheng Liu, Mingyi Hong, Ke Ding, Sijia Liu*
+*Chao Gong, Kai Chen, Zhipeng Wei, Jingjing Chen, and Yu-Gang Jiang*
 
-NeurIPS 2024. [[PDF](https://arxiv.org/pdf/2405.15234)] [[CODE](https://github.com/OPTML-Group/AdvUnlearn)]
+ECCV 2024. [[PDF](https://arxiv.org/pdf/2407.12383)] [[CODE](https://github.com/CharlesGong12/RECE)]
+
+
+
+**Safeguard Text-to-Image Diffusion Models with Human Feedback Inversion**
+
+*Sanghyun Kim, Seohyeon Jung, Balhae Kim, Moonseok Choi, Jinwoo Shin & Juho Lee* 
+
+ECCV 2024. [[PDF](https://link.springer.com/chapter/10.1007/978-3-031-72855-6_8)] [[CODE](https://github.com/nannullna/safeguard-hfi)]
+
+
+
+**Score Forgetting Distillation: A Swift, Data-Free Method for Machine Unlearning in Diffusion Models**
+
+*Tianqi Chen, Shujian Zhang, Mingyuan Zhou*
+
+ICLR 2025. [[PDF](https://arxiv.org/abs/2409.11219)] [[CODE](https://github.com/tqch/score-forgetting-distillation)]
+
+
+
+**Fantastic Targets for Concept Erasure in Diffusion Models and Where To Find Them**
+
+*Anh Bui, Trang Vu, Long Vuong, Trung Le, Paul Montague, Tamas Abraham, Junae Kim, Dinh Phung*
+
+ICLR 2025. [[PDF](https://arxiv.org/abs/2501.18950)] [[CODE](https://github.com/tuananhbui89/Adaptive-Guided-Erasure)]
 
 
 
@@ -548,11 +636,118 @@ Tianwei Xiong, Yue Wu, Enze Xie, Yue Wu, Zhenguo Li, Xihui Liu
 arxiv 2024. [[PDF](https://arxiv.org/pdf/2403.13807)] [[CODE](https://github.com/SilentView/EMCID)]
 
 
+
+**ShieldDiff: Suppressing Sexual Content Generation from Diffusion Models through Reinforcement Learning**
+
+*Dong Han, Salaheldin Mohamed, Yong Li*
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2410.05309)]
+
+
+
 **Safe Text-to-Image Generation: Simply Sanitize the Prompt Embedding**
 
 Huming Qiu, Guanxu Chen, Mi Zhang, Min Yang
 
 arxiv 2024. [[PDF](https://arxiv.org/abs/2411.10329)] [[CODE](https://anonymous.4open.science/r/Embedding-Sanitizer-166E/README.md)]
+
+
+
+**Meta-Unlearning on Diffusion Models: Preventing Relearning Unlearned Concepts**
+
+*Hongcheng Gao, Tianyu Pang, Chao Du, Taihang Hu, Zhijie Deng, Min Lin*
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2410.12777)] [[CODE](https://github.com/sail-sg/Meta-Unlearning)]
+
+
+
+**Dark Miner: Defend against undesired generation for text-to-image diffusion models**
+
+Zheling Meng, Bo Peng, Xiaochuan Jin, Yue Jiang, Jing Dong, Wei Wang
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2409.17682)] 
+
+
+
+**SafetyDPO: Scalable Safety Alignment for Text-to-Image Generation**
+
+*Runtao Liu, Chen I Chieh, Jindong Gu, Jipeng Zhang, Renjie Pi, Qifeng Chen, Philip Torr, Ashkan Khakzar, Fabio Pizzati*
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2412.10493)] [[CODE](https://github.com/Visualignment/SafetyDPO)]
+
+
+
+**Continuous Concepts Removal in Text-to-image Diffusion Models**
+
+*Tingxu Han, Weisong Sun, Yanrong Hu, Chunrong Fang, Yonglong Zhang, Shiqing Ma, Tao Zheng, Zhenyu Chen, Zhenting Wang*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2412.00580)] 
+
+
+
+**SPEED: Scalable, Precise, and Efficient Concept Erasure for Diffusion Models**
+
+*Ouxiang Li, Yuan Wang, Xinting Hu, Houcheng Jiang, Tao Liang, Yanbin Hao, Guojun Ma, Fuli Feng*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2503.07392)] [[CODE](https://github.com/Ouxiang-Li/SPEED)]
+
+
+
+**Continual Unlearning for Foundational Text-to-Image Models without Generalization Erosion**
+
+*Kartik Thakral, Tamar Glaser, Tal Hassner, Mayank Vatsa, Richa Singh*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2503.13769)] 
+
+
+
+**Sparse Autoencoder as a Zero-Shot Classifier for Concept Erasing in Text-to-Image Diffusion Models**
+
+*Zhihua Tian, Sirun Nan, Ming Xu, Shengfang Zhai, Wenjie Qu, Jian Liu, Kui Ren, Ruoxi Jia, Jiaheng Zhang*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2503.09446)]
+
+
+
+**SAeUron: Interpretable Concept Unlearning in Diffusion Models with Sparse Autoencoders**
+
+*Bartosz Cywiński, Kamil Deja*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2501.18052)] [[CODE](https://github.com/cywinski/SAeUron)]
+
+
+
+**CRCE: Coreference-Retention Concept Erasure in Text-to-Image Diffusion Models**
+
+*Yuyang Xue, Edward Moroshko, Feng Chen, Steven McDonagh, Sotirios A. Tsaftaris*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2503.14232)]
+
+
+
+**TRCE: Towards Reliable Malicious Concept Erasure in Text-to-Image Diffusion Models**
+
+*Ruidong Chen, Honglin Guo, Lanjun Wang, Chenyu Zhang, Weizhi Nie, An-An Liu*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2503.07389)] [[CODE](https://github.com/ddgoodgood/TRCE)]
+
+
+
+**Distorting Embedding Space for Safety: A Defense Mechanism for Adversarially Robust Diffusion Models**
+
+*Jaesin Ahn, Heechul Jung*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2501.18877)] [[CODE](https://github.com/aei13/DES)]
+
+
+
+**Safe Text-to-Image Generation: Simply Sanitize the Prompt Embedding**
+
+*Huming Qiu, Guanxu Chen, Mi Zhang, Min Yang*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2411.10329)] []
+
+
 
 ##### :apple:<a name="Inference-Guidance">Inference Guidance</a>
 
@@ -577,6 +772,86 @@ NeurIPS 2023. [[PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/
 *Li, Hang and Shen, Chengzhi and Torr, Philip and Tresp, Volker and Gu, Jindong*
 
 CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Self-Discovering_Interpretable_Diffusion_Latent_Directions_for_Responsible_Text-to-Image_Generation_CVPR_2024_paper.pdf)] [[CODE](https://github.com/hangligit/InterpretDiffusion)]
+
+
+
+**One-dimensional Adapter to Rule Them All: Concepts, Diffusion Models and Erasing Applications**
+
+Mengyao Lyu, Yuhong Yang, Haiwen Hong, Hui Chen, Xuan Jin, Yuan He, Hui Xue, Jungong Han, Guiguang Ding
+
+CVPR 2024. [[PDF](https://openaccess.thecvf.com/content/CVPR2024/papers/Lyu_One-dimensional_Adapter_to_Rule_Them_All_Concepts_Diffusion_Models_and_CVPR_2024_paper.pdf)] [[CODE](https://lyumengyao.github.io/projects/spm)]
+
+
+
+**Safree: Training-free and adaptive guard for safe text-to-image and video generation**
+
+*Jaehong Yoon, Shoubin Yu, Vaidehi Patil, Huaxiu Yao, Mohit Bansal*
+
+ICLR 2025. [[PDF](https://arxiv.org/abs/2410.12761)] [[CODE](https://github.com/jaehong31/SAFREE)]
+
+
+
+**Pruning for Robust Concept Erasing in Diffusion Models**
+
+*Tianyun Yang, Juan Cao, Chang Xu*
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2405.16534)]
+
+
+
+**ConceptPrune: Concept editing in diffusion models via skilled neuron pruning**
+
+*Ruchika Chavhan, Da Li, Timothy Hospedales*
+
+arxiv 2024. [[PDF](https://arxiv.org/abs/2405.19237)]
+
+
+
+**TraSCE: Trajectory Steering for Concept Erasure**
+
+*Anubhav Jain, Yuya Kobayashi, Takashi Shibuya, Yuhta Takida, Nasir Memon, Julian Togelius, Yuki Mitsufuji*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2412.07658)] [[CODE](https://github.com/SonyResearch/TraSCE/)]
+
+
+
+**Growth Inhibitors for Suppressing Inappropriate Image Concepts in Diffusion Models**
+
+*Die Chen, Zhiwen Li, Mingyuan Fan, Cen Chen, Wenmeng Zhou, Yanhao Wang, Yaliang Li*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2408.01014)]
+
+
+
+**Training-Free Safe Denoisers for Safe Use of Diffusion Models**
+
+*Mingyu Kim, Dongjun Kim, Amman Yusuf, Stefano Ermon, Mi Jung Park*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2502.08011)]
+
+
+
+**PromptGuard: Soft Prompt-Guided Unsafe Content Moderation for Text-to-Image Models**
+
+*Lingzhi Yuan, Xinfeng Li, Chejian Xu, Guanhong Tao, Xiaojun Jia, Yihao Huang, Wei Dong, Yang Liu, XiaoFeng Wang, Bo Li*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2501.03544)] 
+
+
+
+**Concept Corrector: Erase concepts on the fly for text-to-image diffusion models**
+
+*Zheling Meng, Bo Peng, Xiaochuan Jin, Yueming Lyu, Wei Wang, Jing Dong*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2502.16368)]
+
+
+
+**Localized Concept Erasure for Text-to-Image Diffusion Models Using Training-Free Gated Low-Rank Adaptation**
+
+*Byung Hyun Lee, Sungjin Lim, Se Young Chun*
+
+arxiv 2025. [[PDF](https://arxiv.org/abs/2503.12356)]
 
 
 
