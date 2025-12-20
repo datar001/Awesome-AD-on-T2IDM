@@ -976,13 +976,7 @@ Based on the prompt source, existing datasets are categorized into two types: **
 - $\textit{Image Synthesis Style Studies Database}$ [[Link]](https://proximacentaurib.notion.site/parrot-zone-74a5c04d4feb4f12b52a41fc8750b205) compiles **thousands of artists** whose styles can be replicated by various text-to-image models, such as Stable Diffusion and Midjourney.
 - $\textit{MACE}$ [[Link]](https://github.com/Shilin-LU/MACE/tree/main/prompts_csv) provides a dataset comprising **200** **celebrities** whose portraits, generated using SD v1.4, are recognized with remarkable accuracy (>99\%) by the GIPHY Celebrity Detector (GCD) [[Link]](https://github.com/Giphy/celeb-detection-oss).
 - $\textit{CPDM}$[[LINK](https://arxiv.org/abs/2403.12052)] is a **copyright protection** dataset for T2I models, containing **2,100** prompts in 4 classes: style, portrait, artistic creation figure, and licensed illustration.
-
-#### Adversarial Datasets
-
-- $\textit{Adversarial Nibbler Dataset}$ [[Link]](https://github.com/google-research-datasets/adversarial-nibbler) consists of 3,412 adversarial prompts that effectively bypass safeguards while inducing text-to-image models to generate malicious images. These prompts, which include violent, sexual, biased, and hate-based material, are manually crafted during the Adversarial Nibbler Challenge.
-
-- $\textit{MMA}$ [[Link]](https://huggingface.co/datasets/YijunYang280/MMA-Diffusion-NSFW-adv-prompts-benchmark) targets 1,000 malicious prompts, generating 1,000 corresponding adversarial prompts using the proposed attack method. These adversarial prompts primarily focus on sexual content.
-- $\textit{Zhang et al.}$ [[Link]](https://github.com/datar001/Attack-Pattern-on-T2I/tree/main/Adversarial_Attack_Dataset) target 10 objects as malicious concepts and generates 500 adversarial prompts for each object. These adversarial prompts are capable of inducing the text-to-image model to produce images related to the malicious concepts, even when the prompt excludes words directly related to them.
+- $\textit{T2I-RiskyPrompt}$ [[LINK]](https://github.com/datar001/T2I-RiskyPrompt) provides a hierarchical risky taxonomy~(6 risky categories and 14 subcategories) and 6,432 risky prompts labeled with hierarchical labels and detailed risky reasons. Moreover, it also provides a risky image detector used to evaluate the generated images of T2I models using T2I-RiskyPrompt.
 
 ### <a name="Tools">Tools</a>
 
