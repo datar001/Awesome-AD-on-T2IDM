@@ -12,9 +12,9 @@ For more detailed information, please refer to our survey paper: [[ARXIV]](https
 
 ## News
 
-- We are thrilled to share that our latest work, **T2I-RiskyPrompt**, has been accepted to **AAAI 2026**! 🎊As Text-to-Image models evolve, safety becomes paramount. **T2I-RiskyPrompt** bridges the gap in current safety evaluations with:
+- We are pleased to share that our latest work, **T2I-RiskyPrompt**, has been accepted to **AAAI 2026**! 🎊As Text-to-Image models evolve, safety becomes paramount. **T2I-RiskyPrompt** bridges the gap in current safety evaluations with:
   - ✅ **Hierarchical Taxonomy:** Covers **6** major risky categories & **14** fine-grained subcategories. 
-  - ✅ **Rich Annotations:** **6,432** prompts meticulously labeled with detailed "risky reasons" — going beyond simple binary labels! 
+  - ✅ **Rich Annotations:** **6,432** prompts labeled with both hierarchical risky categories and detailed risky reasons
   - ✅ **Built-in Detector:** An automated pipeline to evaluate the safety of generated images. 
   - 🔗 **Code & Dataset:**  [[Github]](https://github.com/datar001/T2I-RiskyPrompt), 📄 **Paper:** [[Arxiv]](https://arxiv.org/abs/2510.22300)
 
