@@ -10,6 +10,17 @@ For more detailed information, please refer to our survey paper: [[ARXIV]](https
 
 
 
+## News
+
+- We are thrilled to share that our latest work, **T2I-RiskyPrompt**, has been accepted to **AAAI 2026**! 🎊As Text-to-Image models evolve, safety becomes paramount. **T2I-RiskyPrompt** bridges the gap in current safety evaluations with:
+  - ✅ **Hierarchical Taxonomy:** Covers **6** major risky categories & **14** fine-grained subcategories. 
+  - ✅ **Rich Annotations:** **6,432** prompts meticulously labeled with detailed "risky reasons" — going beyond simple binary labels! 
+  - ✅ **Built-in Detector:** An automated pipeline to evaluate the safety of generated images. 
+  - 🔗 **Code & Dataset:**  [[Github]](https://github.com/datar001/T2I-RiskyPrompt), 📄 **Paper:** [[Arxiv]](https://arxiv.org/abs/2510.22300)
+
+
+
+
 ## Citation
 
 ```latex
@@ -228,7 +239,7 @@ arxiv 2024. [[PDF](https://arxiv.org/pdf/2404.02928)]
 
 G M Shahariar, Jia Chen, Jiachen Li, Yue Dong
 
-arxiv 2024. [[PDF](https://arxiv.org/abs/2409.15381)]
+EMNLP 2024. [[PDF](https://arxiv.org/abs/2409.15381)], [[CODE]](https://github.com/shahariar-shibli/Adversarial-Attack-on-POS-Tags)
 
 
 
@@ -274,11 +285,11 @@ EMNLP 2024. [[PDF](https://arxiv.org/pdf/2308.04265)]
 
 
 
-**Jailbreaking Text-to-Image Models with LLM-Based Agents**
+**Fuzz-testing meets LLM-based agents: An automated and efficient framework for jailbreaking text-to-image generation models**
 
 Yingkai Dong, Zheng Li, Xiangtao Meng, Ning Yu, Shanqing Guo
 
-arxiv 2024. [[PDF](https://arxiv.org/abs/2408.00523)]
+S&P 2025. [[PDF](https://arxiv.org/abs/2408.00523)], [[CODE]]([GitHub - YingkaiD/JailFuzzer](https://github.com/YingkaiD/JailFuzzer))
 
 
 
@@ -366,7 +377,47 @@ AAAI 2024. [[PDF](https://arxiv.org/abs/2408.10848)]
 
 Pucheng Dang, Xing Hu, Dong Li, Rui Zhang, Kaidi Xu, Qi Guo
 
-arxiv 2024. [[PDF](https://arxiv.org/abs/2408.11071)]
+NAACL 2025. [[PDF](https://arxiv.org/abs/2408.11071)]
+
+
+
+**Reason2attack: Jailbreaking text-to-image models via llm reasoning**
+
+Chenyu Zhang, Lanjun Wang, Yiwen Ma, Wenhui Li, An-An Liu
+
+AAAI 2026. [[PDF]](https://arxiv.org/abs/2503.17987)
+
+
+
+**GenBreak: Red Teaming Text-to-Image Generators Using Large Language Models**
+
+Zilong Wang, Xiang Zheng, Xiaosen Wang, Bo Wang, Xingjun Ma, Yu-Gang Jiang
+
+Arxiv 2025. [[PDF]](https://arxiv.org/abs/2506.10047)
+
+
+
+**Modifier Unlocked: Jailbreaking Text-to-Image Models Through Prompts**
+
+Shuofeng Liu; Mengyao Ma; Minhui Xue; Guangdong Bai
+
+S&P 2025. [[PDF]](https://ieeexplore.ieee.org/abstract/document/11023413)
+
+
+
+**PLA: Prompt Learning Attack against Text-to-Image Generative Models**
+
+Xinqi Lyu, Yihao Liu, Yanjie Li, Bin Xiao
+
+ICCV 2025. [[PDF]](https://openaccess.thecvf.com/content/ICCV2025/html/Lyu_PLA_Prompt_Learning_Attack_against_Text-to-Image_Generative_Models_ICCV_2025_paper.html)
+
+
+
+**Red-Teaming Text-to-Image Systems by Rule-based Preference Modeling**
+
+Yichuan Cao, Yibo Miao, Xiao-Shan Gao, Yinpeng Dong
+
+NeurIPS 2025. [[PDF]](https://arxiv.org/abs/2505.21074)
 
 
 
@@ -646,19 +697,11 @@ arxiv 2024. [[PDF](https://arxiv.org/abs/2410.05309)]
 
 
 
-**Safe Text-to-Image Generation: Simply Sanitize the Prompt Embedding**
-
-Huming Qiu, Guanxu Chen, Mi Zhang, Min Yang
-
-arxiv 2024. [[PDF](https://arxiv.org/abs/2411.10329)] [[CODE](https://anonymous.4open.science/r/Embedding-Sanitizer-166E/README.md)]
-
-
-
 **Meta-Unlearning on Diffusion Models: Preventing Relearning Unlearned Concepts**
 
 *Hongcheng Gao, Tianyu Pang, Chao Du, Taihang Hu, Zhijie Deng, Min Lin*
 
-arxiv 2024. [[PDF](https://arxiv.org/abs/2410.12777)] [[CODE](https://github.com/sail-sg/Meta-Unlearning)]
+ICCV 2025. [[PDF](https://arxiv.org/abs/2410.12777)] [[CODE](https://github.com/sail-sg/Meta-Unlearning)]
 
 
 
@@ -730,23 +773,71 @@ arxiv 2025. [[PDF](https://arxiv.org/abs/2503.14232)]
 
 *Ruidong Chen, Honglin Guo, Lanjun Wang, Chenyu Zhang, Weizhi Nie, An-An Liu*
 
-arxiv 2025. [[PDF](https://arxiv.org/abs/2503.07389)] [[CODE](https://github.com/ddgoodgood/TRCE)]
+ICCV 2025. [[PDF](https://arxiv.org/abs/2503.07389)] [[CODE](https://github.com/ddgoodgood/TRCE)]
 
 
 
-**Distorting Embedding Space for Safety: A Defense Mechanism for Adversarially Robust Diffusion Models**
+**Concept pinpoint eraser for text-to-image diffusion models via residual attention gate**
 
-*Jaesin Ahn, Heechul Jung*
+Byung Hyun Lee, Sungjin Lim, Seunggyu Lee, Dong Un Kang, Se Young Chun
 
-arxiv 2025. [[PDF](https://arxiv.org/abs/2501.18877)] [[CODE](https://github.com/aei13/DES)]
+ICLR 2025. [[PDF]](https://arxiv.org/abs/2506.22806) [[CODE]](https://github.com/Hyun1A/CPE)
 
 
 
-**Safe Text-to-Image Generation: Simply Sanitize the Prompt Embedding**
+**Concept replacer: Replacing sensitive concepts in diffusion models via precision localization**
 
-*Huming Qiu, Guanxu Chen, Mi Zhang, Min Yang*
+Lingyun Zhang, Yu Xie, Yanwei Fu, Ping Chen
 
-arxiv 2025. [[PDF](https://arxiv.org/abs/2411.10329)] []
+CVPR 2025. [[PDF]](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Concept_Replacer_Replacing_Sensitive_Concepts_in_Diffusion_Models_via_Precision_CVPR_2025_paper.html) 
+
+
+
+**CURE: Concept unlearning via orthogonal representation editing in diffusion models**
+
+Tingxu Han, Weisong Sun, Yanrong Hu, Chunrong Fang, Yonglong Zhang, Shiqing Ma, Tao Zheng, Zhenyu Chen, Zhenting Wang
+
+NeurIPS 2025. [[PDF]](https://arxiv.org/abs/2412.00580)
+
+
+
+**EraseAnything: Enabling concept erasure in rectified flow transformers**
+
+D Gao, S Lu, W Zhou, J Chu, J Zhang, M Jia, B Zhang, Z Fan, W Zhang
+
+ICML 2025. [[PDF]](https://openreview.net/forum?id=vvBAZJh2nQ) [[CODE]](https://github.com/tomguluson92/EraseAnything)
+
+
+
+**Fine-grained erasure in text-to-image diffusion-based foundation models**
+
+Kartik Thakral, Tamar Glaser, Tal Hassner, Mayank Vatsa, Richa Singh
+
+CVPR 2025 [[PDF]](https://openaccess.thecvf.com/content/CVPR2025/html/Thakral_Fine-Grained_Erasure_in_Text-to-Image_Diffusion-based_Foundation_Models_CVPR_2025_paper.html)
+
+
+
+**Precise, fast, and low-cost concept erasure in value space: Orthogonal complement matters**
+
+Y Wang, O Li, T Mu, Y Hao, K Liu, X Wang, X He
+
+CVPR 2025. [[PDF]](https://research.manchester.ac.uk/files/360486274/2412.06143v1_reduced_size.pdf)
+
+
+
+**SafeGen: Mitigating sexually explicit content generation in text-to-image models**
+
+Xinfeng Li, Yuchen Yang, Jiangyi Deng, Chen Yan, Yanjiao Chen, Xiaoyu Ji, Wenyuan Xu
+
+ACM CCS 2025. [[PDF]](https://arxiv.org/abs/2404.06666) [[CODE]](https://github.com/LetterLiGo/SafeGen_CCS2024)
+
+
+
+**SafeGuider: Robust and practical content safety control for text-to-image models**
+
+P Qi, K Tang, W Zhou, W Zhang, N Yu, T Zhang, Q Guo, J Zhang
+
+ACM CCS 2025. [[PDF]](https://arxiv.org/abs/2510.05173) [[CODE]](https://github.com/pgqihere/safeguider)
 
 
 
@@ -828,7 +919,7 @@ arxiv 2025. [[PDF](https://arxiv.org/abs/2408.01014)]
 
 *Mingyu Kim, Dongjun Kim, Amman Yusuf, Stefano Ermon, Mi Jung Park*
 
-arxiv 2025. [[PDF](https://arxiv.org/abs/2502.08011)]
+NeurIPS 2025. [[PDF](https://arxiv.org/abs/2502.08011)]
 
 
 
@@ -852,7 +943,7 @@ arxiv 2025. [[PDF](https://arxiv.org/abs/2502.16368)]
 
 *Byung Hyun Lee, Sungjin Lim, Se Young Chun*
 
-arxiv 2025. [[PDF](https://arxiv.org/abs/2503.12356)]
+CVPR 2025. [[PDF](https://arxiv.org/abs/2503.12356)]
 
 
 
