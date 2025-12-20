@@ -10,24 +10,25 @@ For more detailed information, please refer to our survey paper: [[ARXIV]](https
 
 
 
-## :bell:News
-
-- **2024-09-12 Our survey "Adversarial Attacks and Defenses on Text-to-Image Diffusion Models" has been accepted by Information Fusion~(SCI-1, IF14.7).**
-
-
-
 ## Citation
 
 ```latex
-@article{zhang2024adversarial,
+@article{zhang2025adversarial,
   title={Adversarial attacks and defenses on text-to-image diffusion models: A survey},
   author={Zhang, Chenyu and Hu, Mingwang and Li, Wenhui and Wang, Lanjun},
   journal={Information Fusion},
+  volume={114},
   pages={102701},
-  year={2024},
+  year={2025},
   publisher={Elsevier}
 }
 ```
+
+
+
+## Recruiting
+
+Looking for prospective PhD students (enroll in 2026). Ideal candidates are expected to be **responsible, organized, and creative**. Strong programming skills, solid mathematics knowledge as well as good communication skills are preferred. Please send your **CV** to wanglanjun AT tju.edu.cn. Note: please attach files directly, not to use 163 Cloud file system.
 
 
 
