@@ -121,13 +121,13 @@ Notably, although many methods are proposed to improve the model robustness agai
 
 *Chengbin Du, Yanxi Li, Zhongwei Qiu, Chang Xu*
 
-NeurIPS 2024. [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b733cdd80ed2ae7e3156d8c33108c5d5-Paper-Conference.pdf)  [[CODE](https://github.com/duchengbin8/Stable_Diffusion_is_Unstable)]
+NeurIPS 2023. [[PDF]](https://proceedings.neurips.cc/paper_files/paper/2023/file/b733cdd80ed2ae7e3156d8c33108c5d5-Paper-Conference.pdf)  [[CODE](https://github.com/duchengbin8/Stable_Diffusion_is_Unstable)]
 
 
 
 **A pilot study of query-free adversarial attack against stable diffusion**
 
-*Haomin Zhuang, Yihua Zhang*
+*Haomin Zhuang, Yihua Zhang, Sijia Liu*
 
 CVPRW 2023. [[PDF](https://openaccess.thecvf.com/content/CVPR2023W/AML/papers/Zhuang_A_Pilot_Study_of_Query-Free_Adversarial_Attack_Against_Stable_Diffusion_CVPRW_2023_paper.pdf)] [[CODE](https://github.com/OPTML-Group/QF-Attack)]
 
@@ -549,7 +549,7 @@ ICLR 2024. [[PDF](https://arxiv.org/abs/2402.05375)] [[CODE](https://github.com/
 
 Alvin Heng , Harold Soh
 
-NeurIPS 2024, [[PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/376276a95781fa17c177b1ccdd0a03ac-Paper-Conference.pdf)]  [[CODE](https://github.com/clear-nus/selective-amnesia)]
+NeurIPS 2023, [[PDF](https://proceedings.neurips.cc/paper_files/paper/2023/file/376276a95781fa17c177b1ccdd0a03ac-Paper-Conference.pdf)]  [[CODE](https://github.com/clear-nus/selective-amnesia)]
 
 
 
@@ -993,7 +993,7 @@ We provide several detectors for detecting malicious prompts and images.
 
 - Meta-Llama-Guard: [[Link](https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B)] (LLM evaluation)
 
-- Openai-Moderation: [[Link]](https://platform.openai.com/docs/guides/moderation/overview) (API)
+- Openai-Moderation: [[Link]](https://developers.openai.com/api/docs/guides/moderation) (API)
 - Azure-Moderation: [[Link]](https://learn.microsoft.com/zh-cn/azure/ai-services/content-moderator/api-reference) (API)
 
 #### Malicious Image Detector
