@@ -829,7 +829,7 @@ CVPR 2025. [[PDF]](https://research.manchester.ac.uk/files/360486274/2412.06143v
 
 Xinfeng Li, Yuchen Yang, Jiangyi Deng, Chen Yan, Yanjiao Chen, Xiaoyu Ji, Wenyuan Xu
 
-ACM CCS 2025. [[PDF]](https://arxiv.org/abs/2404.06666) [[CODE]](https://github.com/LetterLiGo/SafeGen_CCS2024)
+ACM CCS 2024. [[PDF]](https://arxiv.org/abs/2404.06666) [[CODE]](https://github.com/LetterLiGo/SafeGen_CCS2024)
 
 
 
